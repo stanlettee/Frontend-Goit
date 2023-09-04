@@ -1,0 +1,35 @@
+body {
+    font-style: oblique;
+    text-align: center;
+}
+div{
+    text-align: justify;
+    justify-items: normal;
+}
+div.section-1{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+div.section-2{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2rem 2rem;
+    text-align: center;
+}
+h1{
+    color: rgb(37, 5, 66)
+}
+h2{
+    color:rgb(63, 34, 91)
+}
+h3{
+    color: rgb(90, 52, 125);
+}
+li{
+    color:rgb(80, 48, 110)
+}
+p{
+    color: rgb(31, 4, 55);
+}
