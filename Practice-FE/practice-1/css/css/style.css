@@ -1,0 +1,88 @@
+/* універсальний селектор  */
+* {
+  margin: 0;
+}
+
+/* селектор тегу */
+
+h2 {
+  color: coral;
+  font-size: 14px;
+}
+
+p {
+}
+
+a {
+  text-decoration: none;
+}
+
+/* селектор класу */
+
+.title {
+  color: blue;
+  font-size: 46px;
+}
+
+/* селектор id */
+
+#facebook {
+  background-color: aqua;
+}
+
+/* селектор атрибуту */
+
+img[src='./images/matrix.avif'] {
+  display: block;
+  box-shadow: 2px 3pc 8px 2px gold;
+}
+
+[width='200'] {
+  border: 5px solid blue;
+}
+
+/* селектор групи тегів */
+
+h1,
+h2,
+h3 {
+  text-shadow: 1px 2px 3px purple;
+}
+
+/* h1 {
+  text-shadow: 1px 2px 3px purple;
+}
+h2 {
+  text-shadow: 1px 2px 3px purple;
+}
+h3 {
+  text-shadow: 1px 2px 3px purple;
+} */
+
+/* селектор нащадка */
+
+header ul {
+  border: 5px solid green;
+}
+
+section .list {
+  border: 5px solid rgb(128, 70, 0);
+}
+
+/* селектор дитини */
+header > ul {
+  background-color: coral;
+}
+
+nav > .test-link {
+  color:aquamarine
+}
+
+/* селектор сусіда */
+aside + section {
+  background-color: antiquewhite;
+}
+
+article + ul {
+    color: aliceblue;
+}
