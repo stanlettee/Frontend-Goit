@@ -1,0 +1,26 @@
+.text-box > h3 {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div > p {
+    color:red;
+}
+
+.text-box div + h3 + p {
+    color:green;
+}
+
+.text-box div + h3{
+    all:unset;
+}
+
+.yellow{
+    color:yellow;
+} 
+
+
+

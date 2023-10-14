@@ -1,0 +1,30 @@
+.subject:nth-child(2):hover {
+    color:blue;
+    border:solid;
+}
+
+.monday:hover{
+    color:red
+}
+
+.subject:nth-child(even){
+    color:rgb(57, 43, 136);
+}
+
+.subject:nth-child(odd){
+    color: green;
+}
+
+.subject:nth-child(5){
+    color:red;
+}
+
+.subject:nth-child(6):hover{
+    color:blueviolet;
+    border: solid;
+}
+
+.subject:nth-child(4):hover{
+    color:aqua;
+    border: solid 
+}
