@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>WebStudio</title>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>WebStudio</h1>
+        <nav class="header-nav">
+            <h1 class="site-title">WebStudio</h1>
             <ul>
-                <li><a href="index.html">Студія</a></li>
-                <li><a href="./pages/protfolio.html">Портфоліо</a></li>
-                <li><a href="./pages/contacts.html">Контакти</a></li>
+                <li class="studia-link"><a href="index.html">Студія</a></li>
+                <li class="portfolio-link"><a href="./pages/protfolio.html">Портфоліо</a></li>
+                <li class="contacts-link"><a href="./pages/contacts.html">Контакти</a></li>
             </ul>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="email-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="tel-link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="hero-section">
             <h2>Ефективні рішення для вашого бізнесу</h2>
             <button type="button">Замовити послугу</button>
         </section>
-        <section>
+        <section class="list-section">
             <ul>
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -50,7 +53,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="work-section">
             <h2>Чим ми займаємося</h2>
             <ul>
                 <li>
@@ -64,25 +67,25 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Наша Команда</h2>
+        <section class="team-section">
+            <h2 class="our-team-title">Наша Команда</h2>
             <ul>
-                <li>
+                <li class="product-designer">
                     <img src="./img/ighor_photo.png" alt="photo of product designer Ighor">
                     <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
                 </li>
-                <li>
+                <li class="frontend-developer">
                     <img src="./img/olga_photo.png" alt="photo of frontend developer Olga">
                     <h3>Ольга Рєпіна</h3>
                     <p>Frontend Developer</p>
                 </li>
-                <li>
+                <li class="marketing-person">
                     <img src="./img/mikola_photo.png" alt="photo of marketing person Mikola">
                     <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                 </li>
-                <li>
+                <li class="ui-designer">
                     <img src="./img/michail_photo.png" alt="photo of UI designer Michail">
                     <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
@@ -91,7 +94,7 @@
         </section>
     </main>
     <footer>
-        <h2>WebStudio</h2>
+        <h2 class="site-title">WebStudio</h2>
         <address>м. Київ, пр-т Лесі Українки, 26</address>
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+380961111111">+38 096 111 11 11</a>
