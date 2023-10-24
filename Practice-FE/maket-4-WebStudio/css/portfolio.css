@@ -1,0 +1,121 @@
+:root {
+    --accent-color: #FFFFFF;
+    --text-color: #212121;
+    --background-color-accent: #2F303A;
+    --background-color-ourteam: #F5F4FA;
+    --additional-text-color: #757575;
+    --hover-color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-title {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}
+
+.header-link {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover, 
+.header-email:hover, 
+.header-phone:hover{
+    color: var(--hover-color);
+}
+
+.header-email, .header-phone {
+    color: var(--additional-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+}
+
+
+
+.hero-button {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6; 
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+    background: var(--background-color-ourteam);
+}
+
+.hero-button:hover{
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+    border-radius: 4px;
+    background: var(--hover-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.photo-title {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.photo-article {
+    color: var(--additional-text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8; 
+    letter-spacing: 0.03em;
+}
+
+
+
+footer {
+    background-color: var(--background-color-accent);
+}
+
+.footer-site-title {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}
+
+.footer-address {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.footer-email, .footer-phone {
+    color: var(--additional-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
