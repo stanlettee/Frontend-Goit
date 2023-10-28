@@ -95,9 +95,9 @@ footer {
     background-color: var(--background-color-accent);
 }
 
-.footer-site-title {
+.footer-title {
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family: 'Raleway' sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: normal;

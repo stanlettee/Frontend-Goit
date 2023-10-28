@@ -109,7 +109,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team-person-name {
+.team-person {
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -118,7 +118,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team-person-job{
+.team-job{
     color: var(--additional-text-color);
     text-align: center;
     font-size: 16px;
@@ -131,7 +131,7 @@ footer {
     background-color: var(--background-color-accent);
 }
 
-.footer-site-title {
+.footer-title {
     color: var(--accent-color);
     font-family: Raleway;
     font-size: 26px;
