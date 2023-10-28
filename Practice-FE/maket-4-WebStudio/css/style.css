@@ -143,9 +143,11 @@ footer {
 .footer-address {
     color: var(--accent-color);
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    display: block;
 }
 
 .footer-email, .footer-phone {
