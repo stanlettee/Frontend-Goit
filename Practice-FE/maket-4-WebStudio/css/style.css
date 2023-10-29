@@ -11,7 +11,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.site-title {
+.header-logo2 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--hover-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}
+
+.header-logo1 {
     font-family: 'Raleway', sans-serif;
     color: var(--text-color);
     font-size: 26px;
@@ -30,7 +39,10 @@ body {
 
 .header-link:hover, 
 .header-email:hover, 
-.header-phone:hover{
+.header-phone:hover,
+.header-link:focus, 
+.header-email:focus, 
+.header-phone:focus{
     color: var(--hover-color);
 }
 
@@ -133,7 +145,16 @@ footer {
 
 .footer-title {
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}
+
+.footer-title2 {
+    color: var(--hover-color);
+    font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
     line-height: normal;

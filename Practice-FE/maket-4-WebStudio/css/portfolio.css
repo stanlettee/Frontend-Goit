@@ -11,7 +11,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.site-title {
+.header-logo2 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--hover-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}
+
+.header-logo1 {
     font-family: 'Raleway', sans-serif;
     color: var(--text-color);
     font-size: 26px;
@@ -30,7 +39,10 @@ body {
 
 .header-link:hover, 
 .header-email:hover, 
-.header-phone:hover{
+.header-phone:hover,
+.header-link:focus, 
+.header-email:focus, 
+.header-phone:focus{
     color: var(--hover-color);
 }
 
@@ -58,7 +70,7 @@ body {
     background: var(--background-color-ourteam);
 }
 
-.hero-button:hover{
+.hero-button:hover, .hero-button:focus{
     color: var(--accent-color);
     text-align: center;
     font-size: 16px;
@@ -72,7 +84,7 @@ body {
 }
 
 
-.photo-title {
+.products-title {
     color: var(--text-color);
     font-size: 18px;
     font-weight: 700;
@@ -80,7 +92,7 @@ body {
     letter-spacing: 0.06em;
 }
 
-.photo-article {
+.products-article {
     color: var(--additional-text-color);
     font-size: 16px;
     font-style: normal;
@@ -97,7 +109,16 @@ footer {
 
 .footer-title {
     color: var(--accent-color);
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}
+
+.footer-title2 {
+    color: var(--hover-color);
+    font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
