@@ -17,6 +17,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    border: solid 2px red;
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header-logo2 {
     font-family: 'Raleway', sans-serif;
     color: var(--hover-color);
