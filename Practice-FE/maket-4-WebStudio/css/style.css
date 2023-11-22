@@ -25,21 +25,25 @@ body {
 }
 
 .header-logo2 {
+    padding-top: 24px;
     font-family: 'Raleway', sans-serif;
     color: var(--hover-color);
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
+    padding-bottom: 34px
 }
 
 .header-logo1 {
+    padding-top: 24px;
     font-family: 'Raleway', sans-serif;
     color: var(--text-color);
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
+    padding-bottom: 34px
 }
 
 .header-link {
@@ -49,6 +53,7 @@ body {
     line-height: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-bottom: 34px
 }
 
 .header-link:hover, 
@@ -68,6 +73,7 @@ body {
     line-height: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-bottom: 34px;
 }
 
 .hero-section {
@@ -75,7 +81,7 @@ body {
 }
 
 .hero-title {
-    padding-top: 140px;
+    padding-top: 200px;
     color: var(--accent-color);
     text-align: center;
     font-size: 44px;
@@ -101,7 +107,6 @@ body {
 }
 
 .features-title {
-    padding-top: 39px;
     color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
@@ -111,12 +116,16 @@ body {
 }
 
 .features-article {
-    padding-bottom: 70px;
     color: var(--additional-text-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+
+.features-list {
+    padding-top: 94px;
+    padding-bottom: 52px
 }
 
 
@@ -127,16 +136,15 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    padding-bottom: 42px;
 }
 
-.work-image {
-    padding-bottom: 72px;
+.work-list {
+    padding-top: 42px;
+    padding-bottom: 96px;
 }
 
 .team-title {
-    padding-top: 85px;
-    padding-bottom: 42px;
+    padding-top: 94px;
     color: var(--text-color);
     text-align: center;
     font-size: 36px;
@@ -163,6 +171,11 @@ body {
     letter-spacing: 0.03em;
 }
 
+.team-list {
+    padding-top: 56px;
+    padding-bottom: 94px;
+}
+
 .team-item {
     padding-bottom: 46px;
 }
@@ -172,7 +185,7 @@ footer {
 }
 
 .footer-title {
-    padding-top: 36px;
+    padding-top: 60px;
     color: var(--accent-color);
     font-family: 'Raleway';
     font-size: 26px;
