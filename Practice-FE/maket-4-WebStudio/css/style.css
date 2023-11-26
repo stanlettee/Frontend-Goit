@@ -101,7 +101,7 @@ header {
 /* Hero Section */
 
 .hero-div {
-    padding-top: 28px;
+    margin-top: 28px;
     text-align: center;
 }
 
@@ -229,7 +229,7 @@ header {
 }
 
 .team-person {
-    padding-top: 30px;
+    margin-top: 30px;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -239,7 +239,7 @@ header {
 }
 
 .team-job{
-    padding-top: 12px;
+    margin-top: 12px;
     padding-bottom: 30px;
     color: var(--additional-text-color);
     text-align: center;
@@ -266,7 +266,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .footer-title2 {
@@ -276,7 +276,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
 }
 
 .footer-address {
@@ -288,7 +288,7 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .footer-list {

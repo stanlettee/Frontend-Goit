@@ -159,7 +159,7 @@ header {
 .products-title {
     padding-right: 22px;
     padding-left: 22px;
-    padding-top: 26px;
+    margin-top: 26px;
     color: var(--text-color);
     font-size: 18px;
     font-weight: 700;
@@ -170,7 +170,7 @@ header {
 .products-article {
     padding-right: 22px;
     padding-left: 22px;
-    padding-top: 18px;
+    margin-top: 18px;
     color: var(--additional-text-color);
     font-size: 16px;
     font-style: normal;
@@ -196,7 +196,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .footer-title2 {
@@ -206,7 +206,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
 }
 
 .footer-address {
@@ -218,7 +218,7 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .footer-list {
