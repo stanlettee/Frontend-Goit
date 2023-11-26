@@ -12,15 +12,15 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="header-nav">
                 <h1 class="header-logo1"><span class="header-logo2">Web</span>Studio</h1>
-                <ul>
+                <ul class="header-list">
                     <li ><a class="header-link" href="index.html">Студія</a></li>
                     <li ><a class="header-link" href="./pages/protfolio.html">Портфоліо</a></li>
                     <li ><a class="header-link" href="./pages/contacts.html">Контакти</a></li>
                 </ul>
-                <ul>
+                <ul class="header-autorization">
                     <li ><a class="header-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li ><a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
@@ -29,9 +29,11 @@
     </header>
     <main class="main">
         <section class="hero-section">
-            <div class="container">
-                <h2 class="hero-title">Ефективні рішення для вашого бізнесу</h2>
-                <button class="hero-button" type="button">Замовити послугу</button>
+            <div class="container hero-container">
+                <h2 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h2>
+                <div class="hero-div">
+                    <button class="hero-button" type="button">Замовити послугу</button>
+                </div>
             </div>
         </section>
         <section class="features-section">
@@ -81,22 +83,22 @@
                 <h2 class="team-title">Наша Команда</h2>
                 <ul class="team-list">
                     <li class="team-item">
-                        <img src="./img/ighor_photo.png" alt="photo of product designer Ighor">
+                        <img class="team-image" src="./img/ighor_photo.png" alt="photo of product designer Ighor">
                         <h3 class="team-person">Ігор Дем'яненко</h3>
                         <p class="team-job">Product Designer</p>
                     </li>
                     <li class="team-item">
-                        <img src="./img/olga_photo.png" alt="photo of frontend developer Olga">
+                        <img class="team-image" src="./img/olga_photo.png" alt="photo of frontend developer Olga">
                         <h3 class="team-person">Ольга Рєпіна</h3>
                         <p class="team-job">Frontend Developer</p>
                     </li>
                     <li class="team-item">
-                        <img src="./img/mikola_photo.png" alt="photo of marketing person Mikola">
+                        <img class="team-image" src="./img/mikola_photo.png" alt="photo of marketing person Mikola">
                         <h3 class="team-person">Микола Тарасов</h3>
                         <p class="team-job">Marketing</p>
                     </li>
                     <li class="team-item">
-                        <img src="./img/michail_photo.png" alt="photo of UI designer Michail">
+                        <img class="team-image" src="./img/michail_photo.png" alt="photo of UI designer Michail">
                         <h3 class="team-person">Михайло Єрмаков</h3>
                         <p class="team-job">UI Designer</p>
                     </li>
@@ -108,8 +110,10 @@
         <div class="container">
             <h2 class="footer-title"><span class="footer-title2">Web</span>Studio</h2>
             <address class="footer-address" >м. Київ, пр-т Лесі Українки, 26</address>
-            <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="footer-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+            <ul class="footer-list">
+                <li class="footer-item"><a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-item"><a class="footer-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </footer>
 </body>

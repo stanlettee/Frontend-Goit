@@ -18,15 +18,37 @@ body {
 }
 
 .container {
-    outline: solid 2px red;
+    /* outline: solid 2px red; */
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
+
+/* Header */
+
 header {
+    border: solid var(--background-color-ourteam);
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    margin-left: 92px;
+    margin-right: 330px;
+    gap: 52px;
+}
+
+.header-autorization {
+    display: flex;
+    justify-content: flex-end;
+    gap: 48px;
 }
 
 .header-logo2 {
@@ -75,6 +97,15 @@ header {
     text-decoration: none;
 }
 
+
+
+/* Hero Section */
+
+.hero-div {
+    padding-top: 28px;
+    text-align: center;
+}
+
 .hero-section {
     background-color: var(--background-color-accent);
     padding-top: 200px;
@@ -93,7 +124,6 @@ header {
 
 .hero-button{
     color: var(--accent-color);
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
@@ -104,6 +134,15 @@ header {
     border-radius: 4px;
     background: var(--hover-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* Features Section */
+
+.features-list {
+    display: flex;
 }
 
 .features-section {
@@ -128,9 +167,20 @@ header {
     letter-spacing: 0.03em;
 }
 
+
+
+
+/* Work Section */
+
 .work-section {
     padding-top: 92px;
     padding-bottom: 92px;
+}
+
+.work-list {
+    margin-top: 56px;
+    display: flex;
+    gap: 30px;
 }
 
 
@@ -143,12 +193,19 @@ header {
     letter-spacing: 0.03em;
 }
 
+
+
+
+/* Team Section */
+
 .team-section {
+    background-color: var(--background-color-ourteam);
     padding-top: 94px;
     padding-bottom: 92px;
 }
 
 .team-title {
+    
     color: var(--text-color);
     text-align: center;
     font-size: 36px;
@@ -157,7 +214,23 @@ header {
     letter-spacing: 0.03em;
 }
 
+.team-image {
+    width: 270px;
+    height: 260px;
+}
+
+.team-list {
+    display: flex;
+    margin-top: 56px;
+    gap: 30px
+}
+
+.team-item {
+    background-color: var(--accent-color);
+}
+
 .team-person {
+    padding-top: 30px;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -167,6 +240,8 @@ header {
 }
 
 .team-job{
+    padding-top: 12px;
+    padding-bottom: 30px;
     color: var(--additional-text-color);
     text-align: center;
     font-size: 16px;
@@ -176,6 +251,7 @@ header {
 }
 
 
+/* Footer */
 
 footer {
     background-color: var(--background-color-accent);
@@ -191,6 +267,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
+    padding-bottom: 24px;
 }
 
 .footer-title2 {
@@ -200,6 +277,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
+    padding-bottom: 22px;
 }
 
 .footer-address {
@@ -211,6 +289,13 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
+    padding-bottom: 12px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;
 }
 
 .footer-email, .footer-phone {
@@ -226,9 +311,9 @@ footer {
 
 
 
-section {
+/* section {
     outline: solid green;
-  }
+  } */
 
 
 
