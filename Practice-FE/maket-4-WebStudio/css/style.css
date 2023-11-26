@@ -28,7 +28,6 @@ body {
 /* Header */
 
 header {
-    border: solid var(--background-color-ourteam);
     padding-top: 24px;
     padding-bottom: 24px;
 }
