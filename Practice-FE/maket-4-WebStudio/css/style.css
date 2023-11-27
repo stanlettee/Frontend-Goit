@@ -100,10 +100,10 @@ header {
 
 /* Hero Section */
 
-.hero-div {
+/* .hero-div {
     margin-top: 28px;
     text-align: center;
-}
+} */
 
 .hero-section {
     background-color: var(--background-color-accent);
@@ -122,6 +122,10 @@ header {
 }
 
 .hero-button{
+    margin: 0 auto;
+    margin-top: 28px;
+    display: block;
+    text-align: center;
     color: var(--accent-color);
     font-size: 16px;
     font-weight: 700;
@@ -142,14 +146,15 @@ header {
 
 .features-list {
     display: flex;
+    gap: 40px;
 }
 
 .features-section {
     padding-top: 92px;
-    padding-bottom: 92px;
 }
 
 .features-title {
+    margin-bottom: 15px;
     color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
