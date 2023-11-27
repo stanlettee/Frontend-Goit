@@ -88,6 +88,9 @@ body {
 }
 
 .main-button{
+    margin: 0 auto;
+    margin-top: 90px;
+    display: block;
     background-color: var(--background-color);
     width: 165px;
     height: 60px;
@@ -103,14 +106,13 @@ body {
     border: solid var(--text-color);
 } */
 
-.main-button:hover {
+.main-button:hover {  
+    margin: 0 auto;
+    margin-top: 90px;
+    display: block;
+    text-align: center;
     border: 1px solid var(--background-color);
     outline: none;
-}
-
-.button-div {
-    text-align: center;
-    margin-top: 90px;
 }
 
 main {
