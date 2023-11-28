@@ -125,8 +125,6 @@ header {
     border: none;
     margin: 0 auto;
     margin-top: 42px;
-    display: block;
-    text-align: center;
     color: var(--accent-color);
     font-size: 16px;
     font-weight: 700;
@@ -137,7 +135,28 @@ header {
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--hover-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+    display: block;
+    text-align: center;
+}
+
+.hero-button:hover, .hero-button:focus {
+    border: none;
+    margin: 0 auto;
+    margin-top: 42px;
+    color: var(--hover-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--background-color-accent);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+    display: block;
+    text-align: center;
 }
 
 
