@@ -30,8 +30,8 @@ body {
 
 header {
     border: solid var(--background-color-ourteam);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header-nav {
@@ -42,7 +42,7 @@ header {
 
 .header-list {
     display: flex;
-    margin-left: 90px;
+    margin-left: 94px;
     margin-right: 332px;
     gap: 52px;
 }
@@ -50,7 +50,7 @@ header {
 .header-autorization {
     display: flex;
     justify-content: flex-end;
-    gap: 48px;
+    gap: 52px;
 }
 
 .header-logo2 {
@@ -163,7 +163,7 @@ header {
     /* padding-right: 22px; */
     padding-left: 24px;
     margin-top: 30px;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
     color: var(--text-color);
     font-size: 18px;
     font-weight: 700;
@@ -180,15 +180,15 @@ header {
     font-weight: 400;
     line-height: 1.8; 
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
+    padding-bottom: 29px;
 }
 
 
 
 footer {
     background-color: var(--background-color-accent);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 66px;
+    padding-bottom: 64px;
 
 }
 
@@ -199,7 +199,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 24px;
+    margin-bottom: 33px;
 }
 
 .footer-title2 {
@@ -209,7 +209,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 22px;
+    margin-bottom: 33px;
 }
 
 .footer-address {
@@ -221,13 +221,13 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column; 
-    gap: 12px;
+    gap: 20px;
 }
 
 .footer-email, .footer-phone {
@@ -238,6 +238,7 @@ footer {
     letter-spacing: 0.03em;
     text-decoration: none; 
 }
+
 
 /* section {
     outline: solid green;

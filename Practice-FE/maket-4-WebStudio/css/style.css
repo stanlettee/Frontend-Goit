@@ -28,8 +28,8 @@ body {
 /* Header */
 
 header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header-nav {
@@ -39,7 +39,7 @@ header {
 
 .header-list {
     display: flex;
-    margin-left: 90px;
+    margin-left: 94px;
     margin-right: 332px;
     gap: 52px;
 }
@@ -47,7 +47,7 @@ header {
 .header-autorization {
     display: flex;
     justify-content: flex-end;
-    gap: 48px;
+    gap: 52px;
 }
 
 .header-logo2 {
@@ -128,7 +128,7 @@ header {
 .hero-button{
     border: none;
     margin: 0 auto;
-    margin-top: 42px;
+    margin-top: 45px;
     color: var(--accent-color);
     font-size: 16px;
     font-weight: 700;
@@ -178,7 +178,7 @@ header {
 }
 
 .features-title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
@@ -201,6 +201,7 @@ header {
 /* Work Section */
 
 .work-section {
+    padding-top: 7px;
     padding-bottom: 94px;
 }
 
@@ -227,7 +228,7 @@ header {
 
 .team-section {
     background-color: var(--background-color-ourteam);
-    padding-top: 96px;
+    padding-top: 100px;
     padding-bottom: 94px;
 }
 
@@ -256,7 +257,7 @@ header {
 }
 
 .team-person {
-    margin-top: 32px;
+    margin-top: 33px;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -266,8 +267,8 @@ header {
 }
 
 .team-job{
-    margin-top: 14px;
-    padding-bottom: 30px;
+    margin-top: 18px;
+    padding-bottom: 34px;
     color: var(--additional-text-color);
     text-align: center;
     font-size: 16px;
@@ -281,8 +282,8 @@ header {
 
 footer {
     background-color: var(--background-color-accent);
-    padding-top: 62px;
-    padding-bottom: 60px;
+    padding-top: 66px;
+    padding-bottom: 64px;
 
 }
 
@@ -293,7 +294,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 24px;
+    margin-bottom: 33px;
 }
 
 .footer-title2 {
@@ -303,7 +304,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 22px;
+    margin-bottom: 33px;
 }
 
 .footer-address {
@@ -315,13 +316,13 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column; 
-    gap: 12px;
+    gap: 20px;
 }
 
 .footer-email, .footer-phone {
