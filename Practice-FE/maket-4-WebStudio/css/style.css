@@ -28,8 +28,8 @@ body {
 /* Header */
 
 header {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -178,7 +178,7 @@ header {
 }
 
 .features-title {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
@@ -201,12 +201,11 @@ header {
 /* Work Section */
 
 .work-section {
-    padding-top: 7px;
     padding-bottom: 94px;
 }
 
 .work-list {
-    margin-top: 58px;
+    margin-top: 52px;
     display: flex;
     gap: 30px;
 }
@@ -228,7 +227,7 @@ header {
 
 .team-section {
     background-color: var(--background-color-ourteam);
-    padding-top: 100px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -282,8 +281,8 @@ header {
 
 footer {
     background-color: var(--background-color-accent);
-    padding-top: 66px;
-    padding-bottom: 64px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
@@ -294,7 +293,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
 }
 
 .footer-title2 {
@@ -304,7 +303,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
 }
 
 .footer-address {
@@ -316,13 +315,13 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column; 
-    gap: 20px;
+    gap: 16px;
 }
 
 .footer-email, .footer-phone {
