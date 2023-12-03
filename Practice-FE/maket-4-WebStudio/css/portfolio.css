@@ -31,7 +31,7 @@ body {
 header {
     border: solid var(--background-color-ourteam);
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
 }
 
 .header-nav {
@@ -42,15 +42,15 @@ header {
 
 .header-list {
     display: flex;
-    margin-left: 94px;
-    margin-right: 332px;
-    gap: 52px;
+    margin-left: 93px;
+    margin-right: 344px;
+    gap: 50px;
 }
 
 .header-autorization {
     display: flex;
     justify-content: flex-end;
-    gap: 52px;
+    gap: 50px;
 }
 
 .header-logo2 {
@@ -115,7 +115,7 @@ header {
 }
 
 .hero-button {
-    padding: 12px 26px;
+    padding: 6px 22px;
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -163,8 +163,8 @@ header {
 .products-title {
     /* padding-right: 22px; */
     padding-left: 24px;
-    margin-top: 30px;
-    margin-bottom: 24px;
+    margin-top: 20px;
+    margin-bottom: 4px;
     color: var(--text-color);
     font-size: 18px;
     font-weight: 700;
@@ -181,7 +181,12 @@ header {
     font-weight: 400;
     line-height: 1.8; 
     letter-spacing: 0.03em;
-    padding-bottom: 29px;
+    padding-bottom: 20px;
+}
+
+.products-img {
+    width: 370px;
+    height: 294px;
 }
 
 
@@ -200,7 +205,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 .footer-title2 {
@@ -222,13 +227,13 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    margin-bottom: 16px;
+    margin-bottom: 9px;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column; 
-    gap: 16px;
+    gap: 9px;
 }
 
 .footer-email, .footer-phone {

@@ -29,7 +29,7 @@ body {
 
 header {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
 }
 
 .header-nav {
@@ -39,15 +39,15 @@ header {
 
 .header-list {
     display: flex;
-    margin-left: 94px;
-    margin-right: 332px;
-    gap: 52px;
+    margin-left: 93px;
+    margin-right: 344px;
+    gap: 50px;
 }
 
 .header-autorization {
     display: flex;
     justify-content: flex-end;
-    gap: 52px;
+    gap: 50px;
 }
 
 .header-logo2 {
@@ -293,7 +293,7 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 .footer-title2 {
@@ -315,13 +315,13 @@ footer {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    margin-bottom: 16px;
+    margin-bottom: 9px;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column; 
-    gap: 16px;
+    gap: 9px;
 }
 
 .footer-email, .footer-phone {
@@ -332,7 +332,6 @@ footer {
     letter-spacing: 0.03em;
     text-decoration: none; 
 }
-
 
 
 
