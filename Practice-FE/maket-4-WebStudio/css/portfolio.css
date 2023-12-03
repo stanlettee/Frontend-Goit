@@ -150,9 +150,10 @@ header {
 
 .products-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    gap: 24px;
+    gap: 22px;
 }
 
 .products-item {
