@@ -154,12 +154,12 @@ header {
 }
 
 .products-img {
-    width: 368px;
+    width: 368.5px;
     height: 294px;
 }
 
 .products-item {
-    flex-basis: calc((100% - 62px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
     border: 1px solid var(--background-color-ourteam);
 }
 
