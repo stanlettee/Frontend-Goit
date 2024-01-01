@@ -3,326 +3,778 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maket Copy 2</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Maket Copy 2 - Interno</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
-        <img src="./images/navbar-img.jpg" alt="navbar image" />
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about-us.html">About Us</a></li>
-          <li><a href="./services.html">Services</a></li>
-          <li><a href="./pages.html">Pages</a></li>
-          <li><a href="./contact-us.html">Contact Us</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav">
+          <img class="logo" src="./images/navbar-img.jpg" alt="navbar image" />
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./about-us.html">About Us</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./services.html">Services</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./pages.html">Pages</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section>
-        <img src="./images/living-room.png" alt="living room" />
-        <div>
-          <h1>Let's Create Your Dream Interior</h1>
-          <p>
+    <main class="main">
+      <section class="hero-section">
+        <!-- <img src="./images/living-room.png" alt="living room" /> -->
+        <div class="container hero-container">
+          <h1 class="hero-title">Let's Create Your Dream Interior</h1>
+          <p class="hero-article">
             The world needs innovators and problem solvers who turn challenges
             into greater opportunities.
           </p>
-          <button type="button">Get Started</button>
+          <button class="hero-button" type="button">Get Started</button>
         </div>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h3>Interior Design</h3>
-            <p>
-              Enhancing the interior to achieve a healthier environment for the
-              people using right space.
-            </p>
-            <p>
-              View More
-              <img src="./images/button-image.png" alt=" button image" />
-            </p>
-          </li>
-          <li>
-            <h3>Furniture</h3>
-            <p>
-              Movable articles that are used to make a room or building suitable
-              for living or working.
-            </p>
-            <p>
-              View More
-              <img src="./images/button-image.png" alt="button image" />
-            </p>
-          </li>
-          <li>
-            <h3>Flooring</h3>
-            <p>
-              Thin object any finished material applied over a floor structure
-              to provide a walking surface.
-            </p>
-            <p>
-              View More
-              <img src="./images/button-image.png" alt="button image" />
-            </p>
-          </li>
-        </ul>
+      <section class="design-section">
+        <div class="container">
+          <ul class="design-list">
+            <li class="design-item">
+              <h2 class="design-title">Interior Design</h2>
+              <p class="design-article">
+                Enhancing the interior to achieve<br />a healthier environment
+                for the<br />people using right space.
+              </p>
+              <button style="margin-top: 68px" class="design-button">
+                View More
+                <svg
+                  class="design-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="17"
+                  viewBox="0 0 24 17"
+                  fill="none"
+                >
+                  <path
+                    d="M2.52621 8.93006L19.8608 8.79321"
+                    stroke="#CDA274"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.4125 2.40601L21.6519 8.92899L13.2465 15.5834"
+                    stroke="#CDA274"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li class="design-item">
+              <h2 class="design-title">Furniture</h2>
+              <p class="design-article">
+                Movable articles that are used<br />to make a room or
+                building<br />
+                suitable for living or working.
+              </p>
+              <button style="margin-top: 35px" class="design-button">
+                View More
+                <svg
+                  class="design-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="17"
+                  viewBox="0 0 24 17"
+                  fill="none"
+                >
+                  <path
+                    d="M2.52621 8.93006L19.8608 8.79321"
+                    stroke="#CDA274"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.4125 2.40601L21.6519 8.92899L13.2465 15.5834"
+                    stroke="#CDA274"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li class="design-item">
+              <h2 class="design-title">Flooring</h2>
+              <p class="design-article">
+                Thin object any finished<br />material applied over a floor<br />structure
+                to provide a walking<br />surface.
+              </p>
+              <button style="margin-top: 35px" class="design-button">
+                View More
+                <svg
+                  class="design-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="17"
+                  viewBox="0 0 24 17"
+                  fill="none"
+                >
+                  <path
+                    d="M2.52621 8.93006L19.8608 8.79321"
+                    stroke="#CDA274"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.4125 2.40601L21.6519 8.92899L13.2465 15.5834"
+                    stroke="#CDA274"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>We Tackle The Most Challenging Designs</h2>
-        <p>
-          The world needs innovators and problem solvers who turn challenges
-          into greater opportunities. We have an insatiable curiosity about
-          transformative trends challenging the status.
-        </p>
-        <div>
-          <a href="tel:+38012345678">012345678</a>
-          <p>Call Us Anytime</p>
-          <button type="button">
-            <span>Get Free Estimate</span
-            ><img src="./images/button-image.png" alt="button image" />
+      <section class="tackle-section">
+        <div class="container tackle-container">
+          <div class="tackle-div">
+            <h2 class="tackle-title">We Tackle The Most Challenging Designs</h2>
+            <p class="tackle-article">
+              The world needs innovators and problem solvers who turn challenges
+              into greater opportunities. We have<br />an insatiable curiosity
+              about transformative trends challenging the status.
+            </p>
+            <div class="phone-tacklediv">
+              <button class="phone-button">
+                <img class="phone-image" src="./images/phone-img.png" alt="" />
+              </button>
+              <div class="call-div">
+                <a class="phone-link" href="tel:+38012345678">012345678</a>
+                <p class="call-anytime">Call Us Anytime</p>
+              </div>
+            </div>
+            <button class="estimate-button" type="button">
+              Get Free Estimate
+            </button>
+          </div>
+          <div class="tackle-imgdiv">
+            <img
+              class=""
+              src="./images/tackle-kitchen-design.png"
+              alt="tackle kithcen design image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="customers-section">
+        <div class="container customers-container">
+          <h2 class="customers-title">
+            What the People Thinks<br />About Interno
+          </h2>
+          <ul class="customers-list">
+            <li class="customers-item">
+              <div class="customers-div">
+                <img
+                  class="customer-image"
+                  src="./images/logo-1.png"
+                  alt="profile image"
+                />
+                <div class="customers-character">
+                  <h3 class="customer-name">Lisa Clairton</h3>
+                  <p class="customer-location">New York, USA</p>
+                </div>
+              </div>
+              <p class="customer-article">
+                We selected Interno interior<br />because of rigorous design<br />
+                background & education.
+              </p>
+            </li>
+            <li class="customers-item">
+              <div class="customers-div">
+                <img
+                  class="customer-image"
+                  src="./images/logo-2.png"
+                  alt="profile image"
+                />
+                <div class="customers-character">
+                  <h3 class="customer-name">David Knight</h3>
+                  <p class="customer-location">Sydney, Australia</p>
+                </div>
+              </div>
+              <p class="customer-article">
+                The team exceeded our<br />expectations and emerged as<br />leaders
+                of our project’s.
+              </p>
+            </li>
+            <li class="customers-item">
+              <div class="customers-div">
+                <img
+                  class="customer-image"
+                  src="./images/logo-3.png"
+                  alt="profile image"
+                />
+                <div class="customers-character">
+                  <h3 class="customer-name">Lisa Clairton</h3>
+                  <p class="customer-location">Paris, France</p>
+                </div>
+              </div>
+              <p class="customer-article">
+                They balanced the architectural<br />vision and the project
+                realities<br />
+                beautifully.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="logo-section">
+        <div class="container">
+          <ul class="logo-list">
+            <li style="margin-right: 125px" class="logo-item">
+              <img
+                class="logo-image"
+                width="132px"
+                height="43px"
+                src="./images/logo-f-1.png"
+                alt="logo Furniture"
+              />
+            </li>
+            <li style="margin-right: 110px" class="logo-item">
+              <img
+                width="103px"
+                height="103px"
+                class="logo-image"
+                src="./images/logo-f-2.png"
+                alt="logo Furniture"
+              />
+            </li>
+            <li style="margin-right: 89px" class="logo-item">
+              <img
+                width="164px"
+                height="43px"
+                class="logo-image"
+                src="./images/logo-f-3.png"
+                alt="logo Furniture"
+              />
+            </li>
+            <li style="margin-right: 112px" class="logo-item">
+              <img
+                width="145px"
+                height="45px"
+                class="logo-image"
+                src="./images/logo-f-4.png"
+                alt="logo Furniture"
+              />
+            </li>
+            <li class="logo-item">
+              <img
+                width="117px"
+                height="48px"
+                class="logo-image"
+                src="./images/logo-f-5.png"
+                alt="logo Furniture"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="projects-section">
+        <div class="container projects-container">
+          <h2 class="projects-title">Recent Projects</h2>
+          <p class="projects-article">
+            With tools to make every part of your process more human and a
+            support team<br />excited to help you, getting started with us never
+            been easier.
+          </p>
+          <ul class="projects-list">
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/art-modern.png"
+                alt="art modern"
+              />
+              <div class="projects-div">
+                <div class="projects-designdiv">
+                  <h3 class="projects-location">Winery Dry Creek Building</h3>
+                  <p class="projects-design">Art Modern</p>
+                </div>
+                <button class="projects-button" type="button">
+                  <svg
+                    class="projects-svg"
+                    class="projects-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="16"
+                    viewBox="0 0 9 16"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_2_250)">
+                      <path
+                        d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                        stroke="#292F36"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/minimalist.png"
+                alt="minimalist"
+              />
+              <div class="projects-div">
+                <div class="projects-designdiv">
+                  <h3 class="projects-location">Creative Workplace Design</h3>
+                  <p class="projects-design">Minimalist</p>
+                </div>
+              <button class="projects-button" type="button">
+                <svg
+                  class="projects-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="9"
+                  height="16"
+                  viewBox="0 0 9 16"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2_250)">
+                    <path
+                      d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                      stroke="#292F36"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/modern.png"
+                alt="modern"
+              />
+              <div class="projects-div">
+                <div class="projects-designdiv">
+                  <h3 class="projects-location">Bedroom Interior Pot Work</h3>
+                  <p class="projects-design">Modern</p>
+                </div>
+                <button class="projects-button" type="button">
+                  <svg
+                    class="projects-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="16"
+                    viewBox="0 0 9 16"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_2_250)">
+                      <path
+                        d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                        stroke="#292F36"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/scandinavian.png"
+                alt="scandinavian"
+              />
+              <div class="projects-div">
+                <div class="projects-designdiv">
+                  <h3 class="projects-location">Light Ambience Sepia Design</h3>
+                  <p class="projects-design">Scandinavian</p>
+                </div>
+                <button class="projects-button" type="button">
+                  <svg
+                    class="projects-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="16"
+                    viewBox="0 0 9 16"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_2_250)">
+                      <path
+                        d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                        stroke="#292F36"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="numbers-section">
+        <div class="container numbers-container">
+          <ul class="numbers-list">
+            <li class="numbers-item">
+              <h2 style="padding-left: 94px; padding-right: 116px;" class="number">12</h2>
+              <p style="padding-left: 33px; padding-right: 55px;" class="number-article">Years Of Experiance</p>
+            </li>
+            <li class="numbers-item">
+              <h2 style="padding-left: 81px; padding-right: 103px;" class="number">5K</h2>
+              <p style="padding-left: 57px; padding-right: 78px;" class="number-article">Success Project</p>
+            </li>
+            <li class="numbers-item">
+              <h2 style="padding-left: 89px; padding-right: 110px;" class="number">1K</h2>
+              <p style="padding-left: 65px; padding-right: 86px;" class="number-article">Active Project</p>
+            </li>
+            <li class="numbers-item">
+              <h2 style="padding-left: 81px; padding-right: 102px;" class="number">4K</h2>
+              <p style="padding-left: 47px; padding-right: 67px" class="number-article">Happy Customers</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="blogs-section">
+        <div class="container blogs-container">
+          <h2 class="blogs-title">Recent Blogs</h2>
+          <p class="blogs-article">
+            Get updates about our latest trends and techniques used in<br>interior
+            design project works.
+          </p>
+          <ul class="blogs-list">
+            <li class="blogs-item">
+              <div class="blogs-itemdiv">
+                <p style="width: 122px;" class="blogs-design">Kitchen Design</p>
+                <h3 class="blogs-location">
+                  Residential Interior Designer In New York, USA
+                </h3>
+                <div class="blogs-timediv">
+                  <time class="blogs-time"   datetime="2008-02-14 20:00">November 23, 2021</time>
+                <button class="blogs-button" type="button">
+                  <svg
+                    class="blogs-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 9 16"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_2_250)">
+                      <path
+                        d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                        stroke="#292F36"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="blogs-itemdiv">
+                <p style="width: 105px;" class="blogs-design">Living Room</p>
+                <h3 class="blogs-location">
+                  How To Choose The Best Wall Art & Decor House?
+                </h3>
+                <div class="blogs-timediv">
+                  <time class="blogs-time" datetime="2008-02-14 20:00">November 23, 2021</time>
+                  <button class="blogs-button" type="button">
+                    <svg
+                      class="blogs-svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 9 16"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_2_250)">
+                        <path
+                          d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                          stroke="#292F36"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="blogs-itemdiv">
+                <p style="width: 145px;" class="blogs-design">Minimalist Interior</p>
+                <h3 class="blogs-location">
+                Tips To Increase The Interior Value Of Your House
+                </h3>
+                <div class="blogs-timediv">
+                  <time class="blogs-time" datetime="2008-02-14 20:00">November 23, 2021</time>
+                <button class="blogs-button" type="button">
+                <svg
+                  class="blogs-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 9 16"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2_250)">
+                    <path
+                      d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                      stroke="#292F36"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </button>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="blogs-itemdiv">
+                <p style="width: 122px;" class="blogs-design">Kitchen Design</p>
+                <h3 class="blogs-location">
+                  Best Solution For Any<br>Office & Business Interior
+                </h3>
+                <div class="blogs-time-div">
+                  <time class="blogs-time" datetime="2008-02-14 20:00">November 23, 2021</time>
+                  <button class="blogs-button" type="button">
+                    <svg
+                      class="blogs-svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 9 16"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_2_250)">
+                        <path
+                          d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                          stroke="#292F36"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="blogs-itemdiv">
+                <p style="width: 105px;" class="blogs-design">Living Room</p>
+              <h3 class="blogs-location">
+                Get Solution For Building Construction Work
+              </h3>
+              <div class="blogs-timediv">
+                <time class="blogs-time" datetime="2008-02-14 20:00">November 23, 2021</time>
+              <button class="blogs-button" type="button">
+                <svg
+                  class="blogs-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 9 16"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2_250)">
+                    <path
+                      d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                      stroke="#292F36"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </button>
+              </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="blogs-itemdiv">
+                <p style="width: 145px;" class="blogs-design">Minimalist Interior</p>
+              <h3 class="blogs-location">
+                Attain The Best Finish<br>For The Kitchen Cabinets
+              </h3>
+              <div class="blogs-timediv">
+                <time class="blogs-time" datetime="2008-02-14 20:00"
+                >November 23, 2021</time
+              >
+              <button class="blogs-button" type="button">
+                <svg
+                  class="blogs-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 9 16"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2_250)">
+                    <path
+                      d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445"
+                      stroke="#292F36"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </button>
+              </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="join-section">
+        <div class="container join-container">
+          <h2 class="join-title">Wanna join the interno?</h2>
+          <p class="join-article">Contact Us & Get a Free Consultation</p>
+          <button class="join-button" type="button">
+            Connect With us 
           </button>
         </div>
       </section>
-      <section>
-        <h2>What the People Thinks</h2>
-        <h2>About Interno</h2>
-        <ul>
-          <li>
-            <img src="./images/logo-1.png" alt="profile image" />
-            <article>
-              <h3>Lisa Clairton</h3>
-              <p>New York, USA</p>
-              <p>
-                We selected Interno interior because of rigorous design
-                background & education.
-              </p>
-            </article>
-          </li>
-          <li>
-            <img src="./images/logo-2.png" alt="profile image" />
-            <article>
-              <h3>David Knight</h3>
-              <p>Sydney, Australia</p>
-              <p>
-                The team exceeded our expectations and emerged as leaders of our
-                project’s.
-              </p>
-            </article>
-          </li>
-          <li>
-            <img src="./images/logo-3.png" alt="profile image" />
-            <article>
-              <h3>Lisa Clairton</h3>
-              <p>Paris, France</p>
-              <p>
-                They balanced the architectural vision and the project realities
-                beautifully.
-              </p>
-            </article>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <img src="./images/logo-f-1.png" alt="logo Furniture" />
-          </li>
-          <li>
-            <img src="./images/logo-f-2.png" alt="logo Furniture" />
-          </li>
-          <li>
-            <img src="./images/logo-f-3.png" alt="logo Furniture" />
-          </li>
-          <li>
-            <img src="./images/logo-f-4.png" alt="logo Furniture" />
-          </li>
-          <li>
-            <img src="./images/logo-f-5.png" alt="logo Furniture" />
-          </li>
-        </ul>
-        <h2>Recent Projects</h2>
-        <p>
-          With tools to make every part of your process more human and a support
-          team excited to help you, getting started with us never been easier.
-        </p>
-        <ul>
-          <li>
-            <img src="./images/art-modern.png" alt="art modern" />
-            <h3>Winery Dry Creek Building</h3>
-            <p>Art Modern</p>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="button image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/minimalist.png" alt="minimalist" />
-            <h3>Creative Workplace Design</h3>
-            <p>Minimalist</p>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="button image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/modern.png" alt="modern" />
-            <h3>Bedroom Interior Pot Work</h3>
-            <p>Modern</p>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="button image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/scandinavian.png" alt="scandinavian" />
-            <h3>Light Ambience Sepia Design</h3>
-            <p>Scandinavian</p>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="button image" />
-            </button>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <span>12</span>
-            <p>Years Of Experiance</p>
-          </li>
-          <li>
-            <span>5K</span>
-            <p>Success Project</p>
-          </li>
-          <li>
-            <span>1K</span>
-            <p>Active Project</p>
-          </li>
-          <li>
-            <span>4K</span>
-            <p>Happy Customers</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Recent Blogs</h2>
-        <p>
-          Get updates about our latest trends and techniques used in interior
-          design project works.
-        </p>
-        <ul>
-          <li>
-            <img src="./images/kitchen-design.png" alt="image" />
-            <p>Kitchen Design</p>
-            <h3>Residential Interior Designer In New York, USA</h3>
-            <time datetime="2008-02-14 20:00">November 23, 2021</time>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/livingroom-design.png" alt="image" />
-            <p>Living Room</p>
-            <h3>How To Choose The Best Wall Art & Decor House?</h3>
-            <time datetime="2008-02-14 20:00">November 23, 2021</time>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/minimalist-interior.png" alt="image" />
-            <p>Minimalist Interior</p>
-            <h3>Tips To Increase The Interior Value Of Your House</h3>
-            <time datetime="2008-02-14 20:00">November 23, 2021</time>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/kitchen-design.png" alt="image" />
-            <p>Kitchen Design</p>
-            <h3>Best Solution For Any Office & Business Interior</h3>
-            <time datetime="2008-02-14 20:00">November 23, 2021</time>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/livingroom-design-2.png" alt="image" />
-            <p>Living Room</p>
-            <h3>Get Solution For Building Construction Work</h3>
-            <time datetime="2008-02-14 20:00">November 23, 2021</time>
-            <button type="button">
-              <img src="./images/arrow-right-s-line.png" alt="image" />
-            </button>
-          </li>
-          <li>
-            <img src="./images/minimalist-inerior-2.png" alt="image" />
-            <p>Minimalist Interior</p>
-            <h3>Attain The Best Finish For The Kitchen Cabinets</h3>
-            <time datetime="2008-02-14 20:00">November 23, 2021</time>
-            <button type="button">
-              <img src="images/arrow-right-s-line.png" alt="image" />
-            </button>
-          </li>
-        </ul>
-        <h2>Wanna join the interno?</h2>
-        <p>Contact Us & Get a Free Consultation</p>
-        <button type="button">
-          Connect With us <img src="./images/button-image.png" alt="" />
-        </button>
-      </section>
     </main>
-    <footer>
-      <section>
-        <ul>
-          <li>
-            <img src="./images/navbar-img.jpg" alt="logo image" />
-            <p>
-              We are the leading architect and interior design firm in the
-              world.
-            </p>
-            <ul>
-              <li><img src="./images/facebook.png" alt="facebook" /></li>
-              <li><img src="./images/in.png" alt="in" /></li>
-              <li><img src="./images/twitter.png" alt="twitter" /></li>
-              <li><img src="./images/instagram.png" alt="instagram" /></li>
-            </ul>
-          </li>
-          <li>
-            <h3>Pages</h3>
-            <ul>
-              <li>Style Guide</li>
-              <li>Protected</li>
-              <li>Licenses</li>
-              <li>Changelog</li>
-              <li>404</li>
-            </ul>
-          </li>
-          <li>
-            <h3>Explore</h3>
-            <ul>
-              <li><a href="./about-us.html">About Us</a></li>
-              <li><a href="/">Recent Blog</a></li>
-              <li><a href="/">Pricing Plan</a></li>
-              <li><a href="/">Our Projects</a></li>
-              <li><a href="/">Contact Us</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>Contact</h3>
-            <ul>
-              <li>53, East Birchwood Ave. Brooklyn, New York 11201, USA.</li>
-              <li>contact@interno.com</li>
-              <li>(123) 456 - 7890</li>
-            </ul>
-          </li>
-        </ul>
+    <footer class="footer">
+      <section class="links-section">
+        <div class="container links-container">
+          <ul class="links-list">
+            <li class="links-item">
+              <img
+                class="logo"
+                src="./images/navbar-img.jpg"
+                alt="logo image"
+              />
+              <p class="links-article">
+                We are the leading architect and interior design firm in the
+                world.
+              </p>
+              <ul class="social-list">
+                <li class="social-item">
+                  <img
+                    class="social-image"
+                    src="./images/facebook.png"
+                    alt="facebook"
+                  />
+                </li>
+                <li class="social-item">
+                  <img class="social-image" src="./images/in.png" alt="in" />
+                </li>
+                <li class="social-item">
+                  <img
+                    class="social-image"
+                    src="./images/twitter.png"
+                    alt="twitter"
+                  />
+                </li>
+                <li class="social-item">
+                  <img
+                    class="social-image"
+                    src="./images/instagram.png"
+                    alt="instagram"
+                  />
+                </li>
+              </ul>
+            </li>
+            <li class="links-item">
+              <h3 class="links-pages">Pages</h3>
+              <ul class="pages-list">
+                <li class="pages-item"><a class="pages-link" href="/">Style Guide</a></li>
+                <li class="pages-item"><a class="pages-link" href="/">Protected</a></li>
+                <li class="pages-item"><a class="pages-link" href="">Licenses</a></li>
+                <li class="pages-item"><a class="pages-link" href="">Changelog</a></li>
+                <li class="pages-item"><a class="pages-link" href="">404</a></li>
+              </ul>
+            </li>
+            <li class="links-item">
+              <h3 class="links-explore">Explore</h3>
+              <ul class="explore-list">
+                <li class="explore-item">
+                  <a class="explore-link" href="./about-us.html">About Us</a>
+                </li>
+                <li class="explore-item">
+                  <a class="explore-link" href="/">Recent Blog</a>
+                </li>
+                <li class="explore-item">
+                  <a class="explore-link" href="/">Pricing Plan</a>
+                </li>
+                <li class="explore-item">
+                  <a class="explore-link" href="/">Our Projects</a>
+                </li>
+                <li class="explore-item">
+                  <a class="explore-link" href="/">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="links-item">
+              <h3 class="links-contact">Contact</h3>
+              <adress class="contact-adress"
+                >53, East Birchwood Ave. Brooklyn, New York 11201,
+                 USA.</adress
+              >
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <a class="contact-email" href="mailto:contact@interno.com">contact@interno.com</a>
+                </li>
+                <li class="contact-item">
+                  <a class="contact-tel" href="tel:123-456-7890">(123) 456 - 7890</a>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <ul>
-          <li>Copyright © Interno | Designed by</li>
-          <li><a href="">Victorflow</a></li>
-          <li>Templates - Powered by</li>
-          <li><a href="">Webflow</a></li>
-        </ul>
+      <section class="information-section">
+        <div class="container information-container">
+          <ul class="information-list">
+            <li class="information-item">
+              <p class="information-article">
+                Copyright © Interno | Designed by
+              </p>
+            </li>
+            <li class="information-item">
+              <a class="information-link" href="/">Victorflow</a>
+            </li>
+            <li class="information-item">
+              <p class="information-article">Templates - Powered by</p>
+            </li>
+            <li class="information-item">
+              <a class="information-link" href="/">Webflow</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </footer>
   </body>
