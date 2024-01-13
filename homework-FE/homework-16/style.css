@@ -15,7 +15,7 @@
      url("./img/donat.png");
     background-position: center, bottom, top, left, right;
     background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 650px 400px, 200px 200px, 41px 71px, 30px 30px, 30px 30px;
+    background-size: 500px 300px, 200px 200px, 41px 71px, 30px 30px, 30px 30px;
     height: 600px;;
     width: 100%;
 }
