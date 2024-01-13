@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.bg-box {
+    content: "";
+    display: block;
+    background-color: green;
+    background-image: url("./img/house.jpg"),
+     url("./img/grass.png"),
+     url("./img/lamp.png"),
+     url("./img/hedgehog.webp"),
+     url("./img/donat.png");
+    background-position: center, bottom, top, left, right;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 650px 400px, 200px 200px, 41px 71px, 30px 30px, 30px 30px;
+    height: 600px;;
+    width: 100%;
+}
+
