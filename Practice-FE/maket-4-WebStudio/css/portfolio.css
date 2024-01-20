@@ -128,6 +128,7 @@ header {
     border: none;
     flex-shrink: 0;
     background: var(--background-color-ourteam);
+    cursor: pointer;
 }
 
 .hero-button:hover, .hero-button:focus{
