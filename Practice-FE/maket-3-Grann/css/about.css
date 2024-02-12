@@ -1,0 +1,608 @@
+.hero {
+  padding-top: 101.5px;
+  padding-bottom: 120px;
+}
+
+.container-hero {
+  background-image: url(../../img/about-page/main/cakes.webp);
+  background-repeat: no-repeat;
+  background-position: 0 170px;
+}
+
+.hero-div {
+  padding-left: 538px;
+  padding-right: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero-title {
+  color: var(--text-color);
+  font-family: "Moniqa Display";
+  font-size: 226px;
+  font-weight: 900;
+  line-height: 236px;
+  margin-bottom: 0px;
+}
+
+.hero-subtitle {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.hero-div-button {
+  padding-left: 523px;
+  padding-right: 214px;
+  margin-top: 218px;
+  padding-bottom: 140px;
+}
+
+.hero-button {
+  border-radius: 10px;
+  background: rgb(245, 238, 224);
+  padding: 19px 42px 19px 41px;
+  color: rgb(112, 90, 102);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0%;
+  border: none;
+}
+
+
+
+
+
+.deserts {
+  padding-top: 54px;
+}
+
+.deserts-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.deserts-item {
+  width: 605px;
+  padding-top: 203px;
+  padding-left: 153px;
+}
+
+.deserts-item:nth-child(1) {
+  background-image: url(../../img/about-page/gallery/cakes.webp);
+  background-repeat: no-repeat;
+}
+
+.deserts-item:nth-child(2) {
+  background-image: url(../../img/about-page/gallery/shu.webp);
+  background-repeat: no-repeat;
+}
+
+.deserts-item:nth-child(3) {
+  background-image: url(../../img/about-page/gallery/cakes1.webp);
+  background-repeat: no-repeat;
+}
+
+.deserts-item:nth-child(4) {
+  background-image: url(../../img/about-page/gallery/pizza.webp);
+  background-repeat: no-repeat;
+}
+
+.deserts-button {
+  border-radius: 10px;
+  background: var(--background-color);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-color);
+  padding: 19px 100px 19px 100px;
+}
+
+
+
+
+
+
+.bestsellers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.bestsellers-title {
+  color: var(--text-color);
+  font-family: "Moniqa Display";
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.bestsellers-buttondiv {
+  margin-top: 4px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+.bestseller-button {
+  border: 1px solid var(--text-color);
+  border-radius: 22px;
+  background: var(--white-background);
+  padding: 14px 18px 13px 17px;
+}
+
+.bestseller-button:hover {
+  background: var(--background-color);
+}
+
+.bestsellers-list {
+  display: flex;
+  gap: 32px;
+}
+
+.bestsellers-titlediv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
+}
+
+.bestsellers-titlediv img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.bestsellers-titlediv h3 {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.bestseller-item p {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+
+.bestseller-btn > button {
+  padding-left: 80px;
+  padding-right: 82px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: none;
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: var(--background-color);
+}
+
+.bestseller-btn {
+  border: none;
+  margin-top: 88px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.whygrann-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.whygrann {
+  background-image: url("../../img/about-page/why/background-vector11.png");
+  background-repeat: no-repeat;
+  background-position: center 57px;
+}
+
+.about-grann {
+  height: 104px;
+  color: var(--text-color);
+  font-family: "Moniqa Display";
+  font-size: 100px;
+  font-weight: 900;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+.image-grann {
+  width: 605px;
+  height: 631.34px;
+  display: block;
+  margin-right: 136px;
+  background-image: url("../../img/about-page/why/whygrann-cake.png");
+  background-repeat: no-repeat;
+}
+.grann-description {
+  width: 499px;
+  margin-top: 100px;
+}
+.list-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+  flex-wrap: nowrap;
+}
+.list-description {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+  flex-wrap: nowrap;
+}
+.list-description1 {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 65px;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+.delivery-payment {
+  padding-bottom: 120px;
+  padding-top: 120px;
+  background-image: url("../../img/about-page/delivery-and-payment/background-vector12.png");
+  background-position: 50% -190px;
+  background-repeat: no-repeat;
+}
+
+.payment {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "Moniqa Display";
+}
+
+.info-list {
+  display: flex;
+  justify-content: center;
+  gap: 83px;
+  margin-top: 64px;
+}
+
+.info-item:nth-child(1) {
+  padding-top: 20.41px;
+  padding-bottom: 15px;
+}
+
+.info-item:nth-child(2) {
+  padding-top: 20.01px;
+  padding-bottom: 20px;
+}
+
+.info-item:nth-child(3) {
+  padding-top: 9.98px;
+  padding-bottom: 10px;
+}
+
+#delivery-div1 {
+  margin-bottom: 38px;
+  padding-left: 106.37px;
+  padding-right: 106.37;
+}
+
+#delivery-div2 {
+  margin-bottom: 39px;
+  padding-left: 93.01px;
+  padding-right: 93.01px;
+}
+
+#delivery-div3 {
+  margin-bottom: 29.98px;
+  padding-left: 104.01px;
+  padding-right: 104.01px;
+}
+
+.info-title {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+}
+
+.info-text {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+
+
+
+.about-me {
+  padding-bottom: 120px;
+}
+
+.about-container {
+  display: flex;
+  gap: 30px;
+}
+
+.about-div {
+  padding-top: 78px;
+}
+
+.about-div svg {
+  margin-bottom: 40px;
+}
+
+.about-article {
+  padding-left: 106px;
+}
+
+.about-title {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+.about-text {
+  margin-bottom: 56px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.about-text2 {
+  width: 499px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+
+
+
+
+
+.form-section {
+  padding-top: 62px;
+  padding-bottom: 63px;
+  background-image: url("../../img/about-page/wishes/wishes.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  gap: 139.54px;
+}
+
+.form-article {
+  color: var(--background-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.3;
+  width: 393px;
+  margin-top: 24px;
+}
+
+.form-title {
+  transform: rotate(-5deg);
+  font-family: "Jeff Script Web";
+  width: 492.35px;
+  font-weight: 400;
+  font-size: 54px;
+  color: var(--form-color);
+}
+
+.form-text {
+  padding-top: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.form-div {
+  padding-top: 62px;
+}
+
+.form input {
+  border-radius: 10px;
+  background: var(--form-color);
+  height: 60px;
+  width: 499px;
+  padding-left: 33px;
+  border: none;
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.form-div button {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 499px;
+}
+
+
+
+
+
+
+.faq {
+  padding-bottom: 89.5px;
+  padding-top: 120px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.faq-title {
+  font-family: "Moniqa Display";
+  font-weight: 900;
+  font-size: 100px;
+  color: var(--text-color);
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.faq-list {
+  padding-left: 106px;
+}
+
+.faq-item {
+  display: flex;
+  width: 1028px;
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 56px;
+  justify-content: space-between;
+}
+
+.faq-item:first-child {
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 16.5px;
+}
+
+.faq-item:last-child {
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 0px;
+}
+
+.faq-subtitle {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 24px;
+}
+
+.faq-items {
+  margin-bottom: 56px;
+}
+
+.faq-text {
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.faq-bracket {
+  cursor: pointer;
+}
+
+
+
+
+
+
+.instagram-section {
+  padding-bottom: 120px;
+}
+
+.instagram-title {
+  color: var(--text-color);
+  font-family: "Moniqa Display";
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 104px;
+  text-align: center;
+}
+.instagram-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.instagram-item {
+  position: static;
+  width: 393px;
+  height: 393px;
+}
+.instagram-button {
+  background-color: var(--background-color);
+  width: 604px;
+  height: 67px;
+  color: rgb(112, 90, 102);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  margin-top: 62px;
+  border: none;
+  border-radius: 10px;
+}

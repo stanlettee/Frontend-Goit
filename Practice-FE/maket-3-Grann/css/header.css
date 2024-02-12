@@ -1,0 +1,33 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px var(--white-background);
+    background-color: var(--form-color);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list1 {
+    display: flex;
+    margin-right: 275px;
+    gap: 118px;
+}
+
+.header-list2 {
+    display: flex;
+    margin-left: 170px;
+    gap: 103px;
+    margin-right: 76px;
+}
+
+.header-link {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    text-transform: uppercase;
+}

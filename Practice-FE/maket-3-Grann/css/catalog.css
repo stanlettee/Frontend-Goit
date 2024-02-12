@@ -1,0 +1,33 @@
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:32px ;
+    column-gap: 30px;
+}
+
+.gallery-name{
+position: static;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+
+
+flex: none;
+margin: 10px 0px;
+color: rgb(112, 90, 102);
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.gallery-desc{
+    color: rgb(112, 90, 102);
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+
+}

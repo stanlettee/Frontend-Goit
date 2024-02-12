@@ -1,0 +1,247 @@
+.hero {
+    padding-top: 96.5px;
+    padding-bottom: 64px;
+}
+
+.hero-div {
+    display: flex;
+    gap: 34px;
+}
+
+.hero-div img {
+    width: 499px;
+    height: 522px;
+}
+
+.hero-text h2 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 42px;
+    color: var(--text-color);
+    margin-bottom: 64px;
+}
+
+.hero-textlist {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    padding-left: 24px;
+    margin-bottom: 32px;
+}
+
+.hero-textitem p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.hero-buttonlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.hero-buttonitem button {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    width: 288px;
+    height: 60px;
+    border: none;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 30px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-buttonitem button p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.hero-buttonitem button svg {
+    align-self: center;
+}
+
+.hero-cost {
+    margin-top: 51px;
+    display: flex;
+    gap: 222px;
+    padding-left: 2px;
+}
+
+.hero-text {
+    padding-bottom: 27px;
+}
+
+.cost-div p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.hero-cost button {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    width: 287px;
+    height: 67px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cost-div {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.hero-switch {
+    display: flex;
+    margin-top: 32px;
+    padding-left: 38px;
+    align-items: center;
+}
+
+.switch-item img {
+    width: 75px;
+    height: 75px;
+}
+
+.switch-list {
+    display: flex;
+    gap: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.hero-switch button {
+    background-color: var(--text-color);
+    border-radius: 50%;
+    padding: 7px 7px 10px 7px; 
+    border: none;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+
+
+.description {
+    padding-bottom: 64px;
+  }
+  .link-div {
+    display: flex;
+    gap: 151px;
+  }
+  
+  .link-description {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--form-color);
+  }
+  .link-description:hover {
+      color: black;
+  }
+  
+  .description-text {
+    width: 499px;
+    margin-top: 40px;
+    margin-right: 106px;
+  }
+  .text {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  
+
+
+
+  .you-can-try {
+    padding-bottom: 120px;
+  }
+  
+  .text-recommendation {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .cake-recommendation {
+    display: flex;
+    gap: 30px;
+  }
+  .img-recommendation {
+    display: block;
+    width: 393px;
+    height: 393px;
+  }
+  .cake-name {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .cake-price {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .recommendation-div {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      height: 58px;
+  }
+  .recommendation-img-div{
+      height: 25px;
+      cursor: pointer;
+  }
+  .cake-item{
+      padding-bottom: 29px;
+  }
+  
+
+
+
+
+
+
+
+

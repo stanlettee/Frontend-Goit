@@ -1,0 +1,71 @@
+.footer {
+    background-color: var(--text-color);
+    padding-top: 88px;
+    padding-bottom: 89px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-infodiv {
+    display: flex;
+    flex-direction: column;
+    padding-top: 76px;
+    margin-right: 178px;
+    gap: 24px;
+    padding-bottom: 11px
+}
+
+.footer-adress {
+    color: var(--background-color);
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.footer-email {
+    color: var(--background-color);
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.footer-tel {
+    color: var(--background-color);
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.footer-image {
+    width: 255px;
+    height: 201px;
+    margin-right: 242px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.footer-socialdiv {
+    padding-top: 56px;
+    padding-bottom: 11px
+}
+
+.footer-social {
+    width: 34px;
+    height: 34px;
+}
+
+.footer-article {
+    color: var(--background-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.footer-text {
+    color: var(--background-color);
+    font-family: Montserrat;
+    font-size: 18px;
+}
