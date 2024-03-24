@@ -480,10 +480,10 @@ footer {
     cursor: pointer;
 }
 
-.icon-instagram,
-.icon-twitter,
-.icon-facebook,
-.icon-linkedin {
+.footer-linksitem .icon-instagram,
+.footer-linksitem .icon-twitter,
+.footer-linksitem .icon-facebook,
+.footer-linksitem .icon-linkedin {
     fill: var(--accent-color)
 }
 
