@@ -45,14 +45,14 @@ header {
 .header-list {
     display: flex;
     margin-left: 93px;
-    margin-right: 344px;
+    margin-right: 318px;
     gap: 50px;
 }
 
 .header-autorization {
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 30px;
 }
 
 .header-logo2 {
@@ -92,6 +92,26 @@ header {
     text-decoration: none;
 }
 
+
+.icon-envelope {
+    width: 16px;
+    height: 12px;
+    fill: var(--additional-text-color)
+}
+
+.icon-smartphone {
+    width: 10px;
+    height: 16px;
+    fill: var(--additional-text-color)
+}
+
+.header-email:hover .icon-envelope, 
+.header-email:focus .icon-envelope,
+.header-phone:hover .icon-smartphone, 
+.header-phone:focus .icon-smartphone{
+    fill: var(--hover-color);
+}
+
 .header-email, .header-phone {
     color: var(--additional-text-color);
     font-size: 14px;
@@ -99,6 +119,9 @@ header {
     line-height: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 
