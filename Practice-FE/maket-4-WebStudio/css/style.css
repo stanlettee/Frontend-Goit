@@ -5,6 +5,7 @@
     --background-color-ourteam: #F5F4FA;
     --additional-text-color: #757575;
     --hover-color: #2196F3;
+    --icon-color: #AFB1B8;
 }
 
 * {
@@ -282,6 +283,7 @@ header {
 .team-item {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     background-color: var(--accent-color);
+    padding-bottom: 30px;
 }
 
 .team-person {
@@ -296,7 +298,6 @@ header {
 
 .team-job{
     margin-top: 10px;
-    padding-bottom: 30px;
     color: var(--additional-text-color);
     text-align: center;
     font-size: 16px;
@@ -304,6 +305,90 @@ header {
     line-height: normal;
     letter-spacing: 0.03em;
 }
+
+.teamsocial-list {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.teamsocial-item {
+    padding: 12px 12px 12px 12px;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin {
+    width: 20px;
+    height: 20px;
+    fill: var(--icon-color);
+}
+
+.teamsocial-item:hover {
+    background-color: var(--hover-color);
+    border-radius: 50%;
+}
+
+.teamsocial-item:hover .icon-instagram,
+.teamsocial-item:hover .icon-twitter,
+.teamsocial-item:hover .icon-facebook,
+.teamsocial-item:hover .icon-linkedin {
+    fill: var(--accent-color)
+}
+
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-container h2 {
+    margin-bottom: 50px;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid var(--icon-color);
+    padding: 16px 32px 16px 32px;
+    cursor: pointer;
+}
+
+.icon-client,
+.icon-client2,
+.icon-client3,
+.icon-client4,
+.icon-client5,
+.icon-client6 {
+    width:  106px;
+    height: 60px;
+    fill: var(--icon-color)
+}
+
+.clients-item:hover .icon-client,
+.clients-item:hover .icon-client2,
+.clients-item:hover .icon-client3,
+.clients-item:hover .icon-client4,
+.clients-item:hover .icon-client5,
+.clients-item:hover .icon-client6 {
+    fill: var(--hover-color)
+}
+
+
 
 
 /* Footer */
@@ -360,6 +445,50 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none; 
+}
+
+.footer-links {
+    padding-top: 12px;
+    margin-left: 70px;
+}
+
+.footer-links h2 {
+    margin-bottom: 20px;
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-linkslist {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-linksitem {
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px 12px 12px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+    fill: var(--accent-color)
+}
+
+.footer-linksitem:hover {
+    background-color: var(--hover-color)
 }
 
 
