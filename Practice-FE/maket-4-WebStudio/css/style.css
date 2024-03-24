@@ -41,14 +41,14 @@ header {
 .header-list {
     display: flex;
     margin-left: 93px;
-    margin-right: 344px;
+    margin-right: 318px;
     gap: 50px;
 }
 
 .header-autorization {
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 30px;
 }
 
 .header-logo2 {
@@ -88,6 +88,26 @@ header {
     text-decoration: none;
 }
 
+
+.icon-envelope {
+    width: 16px;
+    height: 12px;
+    fill: var(--additional-text-color)
+}
+
+.icon-smartphone {
+    width: 10px;
+    height: 16px;
+    fill: var(--additional-text-color)
+}
+
+.header-email:hover .icon-envelope, 
+.header-email:focus .icon-envelope,
+.header-phone:hover .icon-smartphone, 
+.header-phone:focus .icon-smartphone{
+    fill: var(--hover-color);
+}
+
 .header-email, .header-phone {
     color: var(--additional-text-color);
     font-size: 14px;
@@ -95,6 +115,9 @@ header {
     line-height: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 
@@ -327,7 +350,7 @@ header {
     fill: var(--icon-color);
 }
 
-.teamsocial-item:hover {
+.teamsocial-item:hover, .teamsocial-item:focus {
     background-color: var(--hover-color);
     border-radius: 50%;
 }
@@ -335,7 +358,12 @@ header {
 .teamsocial-item:hover .icon-instagram,
 .teamsocial-item:hover .icon-twitter,
 .teamsocial-item:hover .icon-facebook,
-.teamsocial-item:hover .icon-linkedin {
+.teamsocial-item:hover .icon-linkedin,
+.teamsocial-item a:focus .icon-instagram,
+.teamsocial-item a:focus .icon-twitter,
+.teamsocial-item a:focus .icon-facebook,
+.teamsocial-item a:focus .icon-linkedin
+ {
     fill: var(--accent-color)
 }
 
@@ -384,8 +412,18 @@ header {
 .clients-item:hover .icon-client3,
 .clients-item:hover .icon-client4,
 .clients-item:hover .icon-client5,
-.clients-item:hover .icon-client6 {
-    fill: var(--hover-color)
+.clients-item:hover .icon-client6,
+.clients-item a:focus .icon-client,
+.clients-item a:focus .icon-client2,
+.clients-item a:focus .icon-client3,
+.clients-item a:focus .icon-client4,
+.clients-item a:focus .icon-client5,
+.clients-item a:focus .icon-client6 {
+    fill: var(--hover-color);
+}
+
+.clients-item:hover, .clients-item:focus {
+    border: 1px solid var(--hover-color);
 }
 
 
@@ -480,14 +518,14 @@ footer {
     cursor: pointer;
 }
 
-.footer-linksitem .icon-instagram,
-.footer-linksitem .icon-twitter,
-.footer-linksitem .icon-facebook,
-.footer-linksitem .icon-linkedin {
+.footer-linksitem a .icon-instagram,
+.footer-linksitem a .icon-twitter,
+.footer-linksitem a .icon-facebook,
+.footer-linksitem a .icon-linkedin {
     fill: var(--accent-color)
 }
 
-.footer-linksitem:hover {
+.footer-linksitem:hover, .footer-linksitem:focus{
     background-color: var(--hover-color)
 }
 
