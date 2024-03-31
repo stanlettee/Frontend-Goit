@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #F5F7F8;
+}
+
+section {
+    padding-left: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* outline: solid red; */
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 7px 0 #9e9e9e;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.link-list {
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+    margin-right: 460px;
+}
+
+.link-item a {
+    cursor: pointer;
+    font-weight: 700;
+    color: #1f1f1f;
+    font-size: 14px;
+    letter-spacing: .10rem;
+}
+
+.link-item a:hover {
+    cursor: pointer;
+    color: rgb(1, 98, 1);
+    transition: color .2s ease-in-out;
+}
+
+.location-button { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.location-button:hover {
+    color: #616161;
+    transition: 0.2s
+}
+
+.location-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.button-list {
+    display: flex;
+    gap: 20px;
+}
+
+#header-btn1{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 7px 15px 7px 15px
+}
+
+#header-btn1:hover {
+    background-color: #f5f5f5;
+    transition: 0.5s;
+}
+
+#header-btn2 {
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+
+.aside {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0,0,0.5)),  url('../img/starbacks-catchups.png');
+    width: 480px;
+    height: 147.5rem;
+    background-size: 480px 690px;
+    padding-top: 435px;
+    background-position: 0 -20px; 
+    background-repeat: no-repeat;
+}
+
+
+.aside button {
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 600;
+    position: fixed;
+    left: 110px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    color: #fff
+}
+
+.aside button:hover {
+    background-color: #b8b0b0;
+    transition: 0.5s;
+}
+
+.page-div {
+    display:flex;
+}
+
+.section-div {
+    height: 313px;
+    background-image: url('../img/starbacks-hero.png');
+    width: 790px;
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+
+.hero {
+    padding-top: 350px;
+    padding-left: 60px;
+}
+
+.hero h2 {
+    font-weight: 500;
+    color: #1f1f1f;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-weight: 450;
+    color: #686767;
+    font-size: 14.5px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid 1px #008248;
+    padding: 7px 16px 7px 16px;
+    font-weight: 700;
+    color: #008248;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.hero button:hover {
+    background-color: #cbf0e0;
+    transition: 0.5s
+}
+
+.info-list {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.info-item img {
+    width: 330px;
+    height: 280px;
+}
+
+.info-item {
+    display: flex;
+    gap: 60px;
+}
+
+.info-div h3 {
+    font-weight: 700;
+    color: #1f1f1f;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info-div p {
+    font-weight: 450;
+    color: #686767;
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 300px;
+    line-height: 1.4;
+}
+
+.info-div button {
+    background-color: transparent;
+    padding: 8px 16px 8px 16px;
+    border: solid 1px #008248;
+    color: #008248;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info-div button:hover {
+    background-color: #cbf0e0;
+    transition: 0.5s
+}
+
+.about {
+    padding-bottom: 40px;
+}
+
+.about-list {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.about-item img {
+    width: 323px;
+    height: 185px;
+}
+
+.about-item {
+    background-color: #fff;
+    width: 323px;
+    box-shadow: 0 0 5px 1px rgb(203, 202, 202);
+}
+
+.about-div h3 {
+    margin-top: 15px;
+    font-weight: 450;
+    color: #1f1f1f;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.about-div {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.about-div p {
+    font-weight: 450;
+    color: #686767;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.about-div button {
+    background-color: transparent;
+    padding: 7px 16px 7px 16px;
+    border: solid 1px #008248;
+    color: #008248;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about-div button:hover {
+    background-color: #cbf0e0;
+    transition: 0.5s
+}
+
+.footer {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-bottom: 200px
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1.5px solid #cbc8c8;
+    width: 630px
+}
+
+.links-item {
+    /* outline: solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.links-item h3 {
+    font-weight: 450;
+    color: #1f1f1f;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.links-item button {
+    padding: 10px 9px 5px 9px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+
+.links-item button:hover {
+    background-color: #efeded;
+    transition: 0.2s;
+}
+
+.social {
+    padding-top: 40px;
+}
+
+.social-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+.social-item a svg {
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+
+.social-item {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px 0 0 10px ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 45px;
+    height: 45px;
+}
+
+.privacy-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.privacy-item a {
+    cursor: pointer;
+    font-weight: 600;
+    color: #1f1f1f;
+    font-size: 15x;
+}
+
+.privacy-item a:hover {
+    color: #616161;
+    transition: 0.2s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
