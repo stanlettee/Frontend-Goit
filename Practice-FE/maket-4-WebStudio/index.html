@@ -61,7 +61,7 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h2>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button data-modal-open class="hero-button" type="button">Замовити послугу</button>
         </div>
       </section>
       <section class="features-section">
@@ -405,7 +405,68 @@
               </li>
             </ul>
         </div>
+        <form action="" class="footer-form">
+          <h2>ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+          <div class="footerform-container">
+            <input
+              type="text"
+              name=""
+              placeholder="E-mail"
+            />
+            <button type="submit">
+              Підписатися
+              <svg class="footer-icon">
+                <use href="./img/symbol-defs.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="icon-close">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2>Залиште свої дані, ми вам передзвонимо</h2>
+        <form action="">
+          <ul class="backdrop-list">
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Ім'я</label>
+              <input style="padding-left: 42px;" required class="backdrop-type" type="text">
+              <svg style="top: 107px;" class="modal-icon">
+                <use href="./img/symbol-defs.svg#icon-human"></use>
+              </svg>
+            </li>
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Телефон</label>
+              <input style="padding-left: 42px;" required class="backdrop-type" type="tel">
+              <svg style="top: 176; left: 58px" class="modal-icon">
+                <use href="./img/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </li>
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Пошта</label>
+              <input style="padding-left: 42px;" required class="backdrop-type" type="email">
+              <svg style="top: 246px; left: 52px; width: 28px; height: 28px;" class="modal-icon">
+                <use href="./img/symbol-defs.svg#icon-email"></use>
+              </svg>
+            </li>
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Коментар</label>
+              <input placeholder="Введіть текст" style="height: 120px; padding-bottom: 90px;" placeholder="" required class="backdrop-type" type="text">
+            </li>
+          </ul>
+          <div class="checkbox-div">
+            <input style="width: 16px" class="checkbox-type" type="checkbox">
+            <label class="checkbox-information" for="">Погоджуюся з розсилкою та приймаю <a class="contract">Умови договору</a></label>
+          </div>
+          <button type="submit" class="backdrop-button">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
