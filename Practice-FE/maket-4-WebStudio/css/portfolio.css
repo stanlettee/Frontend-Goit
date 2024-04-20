@@ -80,6 +80,7 @@ header {
     line-height: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
+    position: relative;
 }
 
 .header-link:hover, 
@@ -90,6 +91,24 @@ header {
 .header-phone:focus{
     color: var(--hover-color);
     text-decoration: none;
+}
+
+.header-item:hover .header-link::after, 
+.header-item:focus .header-link::after  {
+    opacity: 1;
+}
+
+.header-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover-color);
+    opacity: 0;
+    position: absolute;
+    bottom: -31.5px;
+    border-radius: 2px;
+    right: 0;
 }
 
 
@@ -183,6 +202,7 @@ header {
 }
 
 .products-item {
+    position: relative;
     flex-basis: calc((100% - 60px) / 3);
     border: 1px solid var(--background-color-ourteam);
 }
@@ -190,6 +210,14 @@ header {
 .products-item:hover, .projects-item:focus {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     cursor: pointer;
+}
+
+.products-item:hover .overlay, .projects-item:focus .overlay {
+    opacity: 1;
+}
+
+.products-item:hover .products-img, .projects-item:focus .products-img {
+    opacity: 0;
 }
 
 .products-title {
@@ -215,6 +243,28 @@ header {
     letter-spacing: 0.03em;
     padding-bottom: 20px;
 }
+
+  .overlay {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(33, 150, 243, 0.90);
+    padding: 63px 24px 63px 24px;
+  }
+
+  .overlay p {
+    width: 322px;
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55; /* 155.556% */
+    letter-spacing: 0.03em;
+  }
+
+
 
 
 
@@ -275,7 +325,6 @@ footer {
     letter-spacing: 0.03em;
     text-decoration: none; 
 }
-
 
 
 /* section {

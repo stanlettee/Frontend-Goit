@@ -76,6 +76,7 @@ header {
     line-height: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
+    position: relative;
 }
 
 .header-link:hover, 
@@ -86,6 +87,24 @@ header {
 .header-phone:focus{
     color: var(--hover-color);
     text-decoration: none;
+}
+
+.header-item:hover .header-link::after, 
+.header-item:focus .header-link::after  {
+    opacity: 1;
+}
+
+.header-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover-color);
+    opacity: 0;
+    position: absolute;
+    bottom: -31.5px;
+    border-radius: 2px;
+    right: 0;
 }
 
 
@@ -810,6 +829,9 @@ footer {
     fill: var(--hover-color);
     border-color: var(--hover-color);
   }
+
+
+
 
 
 
