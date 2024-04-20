@@ -1,0 +1,58 @@
+.container {
+    display: block;
+    position: relative;
+    position: fixed;
+    height: 100%;
+    width: 60px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(105, 93, 93, 0.7);
+    opacity: 1;
+}
+
+.container p {
+    display: block;
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    top: 50%;
+    left: -80px;
+    transform: rotate(90deg);
+}
+
+.aside-hover {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    opacity: 0;
+    background-color: rgba(105, 93, 93, 0.7);
+}
+
+.container:hover .aside-hover {
+    width: 500px;
+    opacity: 1;
+    transition: width 0.4s ease;
+}
+
+.container:hover p {
+    opacity: 0;
+}
+
+.menu-link {
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: none;
+}
