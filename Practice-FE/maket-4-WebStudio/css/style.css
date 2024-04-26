@@ -77,6 +77,8 @@ header {
     letter-spacing: 0.02em;
     text-decoration: none;
     position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-link:hover, 
@@ -105,6 +107,8 @@ header {
     bottom: -31.5px;
     border-radius: 2px;
     right: 0;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -125,6 +129,7 @@ header {
 .header-phone:hover .icon-smartphone, 
 .header-phone:focus .icon-smartphone{
     fill: var(--hover-color);
+    
 }
 
 .header-email, .header-phone {
@@ -137,6 +142,8 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
+    transition-duration: 250ms;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -387,6 +394,8 @@ header {
     display: block;
     width: 44px;
     height: 44px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin {
@@ -450,7 +459,9 @@ header {
 .icon-client6 {
     width:  106px;
     height: 60px;
-    fill: var(--icon-color)
+    fill: var(--icon-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .clients-item a:hover .icon-client,
@@ -566,6 +577,8 @@ footer {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-linksitem a .icon-instagram,
