@@ -39,7 +39,6 @@ header {
 .header-nav {
     display: flex;
     align-items: center;
-   
 }
 
 .header-list {
@@ -81,6 +80,7 @@ header {
     letter-spacing: 0.02em;
     text-decoration: none;
     position: relative;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -110,7 +110,8 @@ header {
     position: absolute;
     bottom: -31.5px;
     border-radius: 2px;
-    right: 0; 
+    right: 0;
+    transition-property: background-color, opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -133,6 +134,7 @@ header {
 .header-phone:hover .icon-smartphone, 
 .header-phone:focus .icon-smartphone{
     fill: var(--hover-color);
+    
 }
 
 .header-email, .header-phone {
@@ -145,6 +147,9 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -173,8 +178,9 @@ header {
     border-radius: 4px;
     border: none;
     flex-shrink: 0;
-    background: var(--background-color-ourteam);
+    background-color: var(--background-color-ourteam);
     cursor: pointer;
+    transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -211,6 +217,7 @@ header {
     position: relative;
     flex-basis: calc((100% - 60px) / 3);
     border: 1px solid var(--background-color-ourteam);
+    transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -255,8 +262,9 @@ header {
     top: 0;
     left: 0;
     opacity: 0;
-    background: rgba(33, 150, 243, 0.90);
+    background-color: rgba(33, 150, 243, 0.90);
     padding: 63px 24px 63px 24px;
+    transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
   }
