@@ -229,6 +229,7 @@ header {
 
 .products-item:hover .overlay, .projects-item:focus .overlay {
     opacity: 1;
+    transform: translate(0, 0);
 }
 
 .products-title {
@@ -264,9 +265,10 @@ header {
     opacity: 0;
     background-color: rgba(33, 150, 243, 0.90);
     padding: 63px 24px 63px 24px;
-    transition-property: opacity;
+    transition-property: opacity, transform;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(0%, 50%);
   }
 
   .overlay p {
