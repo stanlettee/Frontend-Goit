@@ -58,6 +58,9 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
+    animation-name: header-logo;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .header-logo1 {
@@ -67,6 +70,18 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.03em;
+    animation-name: header-logo;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes header-logo {
+    0% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(0)
+    }
 }
 
 .header-link {
@@ -79,7 +94,23 @@ header {
     position: relative;
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header-item {
+    animation-name: header-link;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes header-link {
+    0% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(0)
+    }
 }
 
 .header-link:hover, 
@@ -146,7 +177,19 @@ header {
     align-items: center;
     transition-property: color;
     transition-duration: 250ms;
-    transition-delay: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-name: header-email;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes header-email {
+    0% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(0)
+    }
 }
 
 
@@ -176,6 +219,20 @@ header {
     line-height: 1.3em;
     letter-spacing: 0.02;
     text-transform: uppercase;
+    animation-name: hero-title;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes hero-title {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
 }
 
 .hero-button{
@@ -196,6 +253,20 @@ header {
     display: block;
     text-align: center;
     cursor: pointer;
+    animation-name: hero-button;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes hero-button {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
 }
 
 /* .hero-button:hover, .hero-button:focus {
@@ -240,16 +311,37 @@ header {
     background-image: url("../img/antenna-1.png");
 }
 
+@keyframes features-item {
+    0% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 .features-item:nth-child(2)::before {
     background-image: url("../img/clock-1.png");
+
 }
 
 .features-item:nth-child(3)::before {
     background-image: url("../img/diagram-1.png");
+
 }
 
 .features-item:nth-child(4)::before {
     background-image: url("../img/astronaut-1.png");
+
+}
+
+.features-item {
+    animation-name: features-item;
+    animation-duration: 500ms;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .features-section {
