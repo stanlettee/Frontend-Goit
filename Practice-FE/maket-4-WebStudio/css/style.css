@@ -59,7 +59,7 @@ header {
     line-height: normal;
     letter-spacing: 0.03em;
     animation-name: header-logo;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -71,7 +71,7 @@ header {
     line-height: normal;
     letter-spacing: 0.03em;
     animation-name: header-logo;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -100,7 +100,7 @@ header {
 
 .header-item {
     animation-name: header-link;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -179,7 +179,7 @@ header {
     transition-duration: 250ms;
     transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
     animation-name: header-email;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -220,7 +220,7 @@ header {
     letter-spacing: 0.02;
     text-transform: uppercase;
     animation-name: hero-title;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -254,7 +254,7 @@ header {
     text-align: center;
     cursor: pointer;
     animation-name: hero-button;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -340,7 +340,7 @@ header {
 
 .features-item {
     animation-name: features-item;
-    animation-duration: 500ms;
+    animation-duration: 1s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
