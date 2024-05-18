@@ -1,0 +1,45 @@
+.hero-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.hero-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero-button {
+    padding: 6px 22px;
+    color: $text-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6; 
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    flex-shrink: 0;
+    background-color: $background-color-ourteam;
+    cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-name: hero-button;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+
+.hero-button:hover, .hero-button:focus{
+    color: $accent-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+    border-radius: 4px;
+    background: $hover-color;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}

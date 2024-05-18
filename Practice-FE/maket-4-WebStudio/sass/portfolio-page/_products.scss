@@ -1,0 +1,83 @@
+.products-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.products-img {
+    width: 368px;
+    height: 294px;
+}
+
+.products-item {
+    position: relative;
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid $background-color-ourteam;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-name: products-item;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+.products-item:hover, .projects-item:focus {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.products-item:hover .overlay, .projects-item:focus .overlay {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.products-title {
+    /* padding-right: 22px; */
+    padding-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    color: $text-color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.products-article {
+    /* padding-right: 22px; */
+    padding-left: 24px;
+    color: $additional-text-color;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8; 
+    letter-spacing: 0.03em;
+    padding-bottom: 20px;
+}
+
+  .overlay {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(33, 150, 243, 0.90);
+    padding: 63px 24px 63px 24px;
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(0%, 50%);
+  }
+
+  .overlay p {
+    width: 322px;
+    color: $accent-color;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55; /* 155.556% */
+    letter-spacing: 0.03em;
+  }

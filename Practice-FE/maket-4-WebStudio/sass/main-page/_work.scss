@@ -1,0 +1,44 @@
+.work-section {
+    padding-bottom: 94px;
+}
+
+.work-list {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.work-item {
+    position: relative;
+}
+
+.work-div {
+    background: rgba(47, 48, 58, 0.80);
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    padding: 27px 0 27px 0
+}
+
+.work-item p {
+
+
+    color: $accent-color;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    
+    
+}
+
+.work-title {
+    color: $text-color;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+}

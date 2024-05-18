@@ -1,0 +1,77 @@
+@keyframes header-logo {
+    0% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes header-link {
+    0% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes header-email {
+    0% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes hero-title {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes hero-button {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes features-item {
+    0% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes hero-button {
+    0% {
+        transform: translateY(-1000px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes products-item {
+    0% {
+        transform: translateY(1000px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
