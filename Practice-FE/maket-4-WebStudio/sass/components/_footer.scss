@@ -1,177 +1,185 @@
-footer {
+.footer {
     background-color: $background-color-accent;
     padding-top: 60px;
     padding-bottom: 60px;
 
+    &__title {
+        color: $accent-color;
+        font-family: 'Raleway';
+        font-size: 26px;
+        font-weight: 700;;
+        letter-spacing: 0.03em;
+        margin-bottom: 20px;
+    }
 
+    &__title2 {
+        color: $hover-color;
+        font-family: 'Raleway';
+        font-size: 26px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.03em;
+        margin-bottom: 26px;
+    }
+    
+    &__address {
+        color: $accent-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 9px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column; 
+        gap: 9px;
+    }
+
+    &__email, &__phone {
+        color: $additional-text-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-decoration: none; 
+    }
+
+    &__links {
+        padding-top: 12px;
+        margin-left: 70px;
+    }
+
+    &__links h2 {
+        margin-bottom: 20px;
+        color: $accent-color;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
+    
+    &__container {
+        display: flex;
+    }
+    
+    &__linkslist {
+        display: flex;
+        gap: 10px;
+    }
+    
+    &__linksitem a {
+        display: block;
+        width: 44px;
+        height: 44px;
+        padding: 12px 12px 12px 12px;
+        background-color: rgba(255, 255, 255, 0.10);
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    }
+    
+    &__linksitem &__icons {
+        fill: $accent-color
+    }
+    
+    &__linksitem a:hover, &__linksitem a:focus{
+        background-color: $hover-color
+    }
+    
+    
+    &__form {
+        margin-left: 93px;
+        padding-top: 10px;
+    }
+    
+    &form__container {
+        display: flex;
+      }
+      
+    &__form h2 {
+        color: $accent-color;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      
+    &__form input  {
+        width: 358px;
+        height: 50px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(33, 150, 243, 0);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        margin-right: 12px;
+        padding-left: 16px;
+        color: $accent-color;
+      }
+      
+    &__form input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px; 
+        letter-spacing: 0.48px;
+      }
+      
+      &__form button {
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+        border-radius: 4px;
+        background: $hover-color;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: $accent-color;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.96px;
+        padding: 10px 28px 10px 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      &__icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        fill: $accent-color;
+      }
+    
+      &__icons{
+        width: 20px;
+        height: 20px;
+        fill: $icon-color;
+    }
+    
+    
+    
 }
 
-/* .footer-container {
+/* &__container {
     outline: solid red;
 } */
 
-.footer-title {
-    color: $accent-color;
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 700;;
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
-}
-
-.footer-title2 {
-    color: $hover-color;
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.03em;
-    margin-bottom: 26px;
-}
-
-.footer-address {
-    color: $accent-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    display: block;
-    text-decoration: none;
-    margin-bottom: 9px;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column; 
-    gap: 9px;
-}
-
-.footer-email, .footer-phone {
-    color: $additional-text-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-decoration: none; 
-}
-
-.footer-links {
-    padding-top: 12px;
-    margin-left: 70px;
-}
-
-.footer-links h2 {
-    margin-bottom: 20px;
-    color: $accent-color;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-}
-
-.footer-container {
-    display: flex;
-}
-
-.footer-linkslist {
-    display: flex;
-    gap: 10px;
-}
-
-.footer-linksitem a {
-    display: block;
-    width: 44px;
-    height: 44px;
-    padding: 12px 12px 12px 12px;
-    background-color: rgba(255, 255, 255, 0.10);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.footer-linksitem a .icon-instagram,
-.footer-linksitem a .icon-twitter,
-.footer-linksitem a .icon-facebook,
-.footer-linksitem a .icon-linkedin {
-    fill: $accent-color
-}
-
-.footer-linksitem a:hover, .footer-linksitem a:focus{
-    background-color: $hover-color
-}
 
 
-.footer-form {
-    margin-left: 93px;
-    padding-top: 10px;
-}
 
-.footerform-container {
-    display: flex;
-  }
-  
-.footer-form h2 {
-    color: $accent-color;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  
-.footer-form input  {
-    width: 358px;
-    height: 50px;
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: rgba(33, 150, 243, 0);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-right: 12px;
-    padding-left: 16px;
-    color: $accent-color;
-  }
-  
-.footer-form input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px; 
-    letter-spacing: 0.48px;
-  }
-  
-  .footer-form button {
-    cursor: pointer;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    background: $hover-color;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: $accent-color;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.96px;
-    padding: 10px 28px 10px 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer-icon {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    fill: $accent-color;
-  }
 
-  .icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin {
-    width: 20px;
-    height: 20px;
-    fill: $icon-color;
-}
+
+
+
+
+
 

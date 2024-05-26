@@ -1,68 +1,87 @@
-.features-list {
-    display: flex;
-    gap: 30px;
+.features {
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item::before {
+        content: "";
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        background-color: $background-color-ourteam;
+        width: 270px;
+        height: 120px;
+    }
+
+    &__item:nth-child(1)::before {
+        background-image: url("../img/antenna-1.png");
+    }
+
+    &__item:nth-child(2)::before {
+        background-image: url("../img/clock-1.png");
+    
+    }
+
+    &__item:nth-child(3)::before {
+        background-image: url("../img/diagram-1.png");
+    
+    }
+
+    &__item:nth-child(4)::before {
+        background-image: url("../img/astronaut-1.png");
+    
+    }
+
+    &__item {
+        animation-name: features-item;
+        animation-duration: 1s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    
+    &__section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+    &__title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: $text-color;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    &__article {
+        color: $additional-text-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    }
 }
 
-.features-item::before {
-    content: "";
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    background-color: $background-color-ourteam;
-    width: 270px;
-    height: 120px;
-}
-
-.features-item:nth-child(1)::before {
-    background-image: url("../img/antenna-1.png");
-}
 
 
 
-.features-item:nth-child(2)::before {
-    background-image: url("../img/clock-1.png");
 
-}
 
-.features-item:nth-child(3)::before {
-    background-image: url("../img/diagram-1.png");
 
-}
 
-.features-item:nth-child(4)::before {
-    background-image: url("../img/astronaut-1.png");
 
-}
 
-.features-item {
-    animation-name: features-item;
-    animation-duration: 1s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
 
-.features-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
-.features-title {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: $text-color;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
 
-.features-article {
-    color: $additional-text-color;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
+
+
+
+
+
+
 
 
 

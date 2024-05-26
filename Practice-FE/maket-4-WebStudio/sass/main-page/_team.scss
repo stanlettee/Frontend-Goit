@@ -1,93 +1,96 @@
-.team-section {
-    background-color: $background-color-ourteam;
-    padding-top: 94px;
-    padding-bottom: 94px;
+.team {
+    &__section {
+        background-color: $background-color-ourteam;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+    &__title {
+        color:$text-color;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.03em;
+    }
+    
+    &__image {
+        width: 270px;
+        height: 260px;
+    }
+    
+    &__list {
+        display: flex;
+        margin-top: 50px;
+        gap: 30px
+    }
+    
+    &__item {
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        background-color: $accent-color;
+        padding-bottom: 30px;
+    }
+    
+    &__person {
+        margin-top: 30px;
+        color: $text-color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.03em;
+    }
+    
+    &__job{
+        margin-top: 10px;
+        color: $additional-text-color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.03em;
+    }
+    
+    &social__list {
+        display: flex;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 16px;
+        gap: 10px;
+    }
+    
+    &social__item a {
+        padding: 12px 12px 12px 12px;
+        cursor: pointer;
+        display: block;
+        width: 44px;
+        height: 44px;
+        transition-property: all;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    }
+    
+    &__instagram, &__twitter, &__facebook, &__linkedin {
+        width: 20px;
+        height: 20px;
+        fill: $icon-color;
+    }
+    
+    &social__item a:hover, &social__item a:focus {
+        background-color: $hover-color;
+        border-radius: 50%;
+    }
+    
+    &social__item a:hover &__instagram,
+    &social__item a:hover &__twitter,
+    &social__item a:hover &__facebook,
+    &social__item a:hover &__linkedin,
+    &social__item a:focus &__instagram,
+    &social__item a:focus &__twitter,
+    &social__item a:focus &__facebook,
+    &social__item a:focus &__linkedin
+     {
+        fill: $accent-color
+    }
 }
 
-.team-title {
-    color:$text-color;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.03em;
-}
-
-.team-image {
-    width: 270px;
-    height: 260px;
-}
-
-.team-list {
-    display: flex;
-    margin-top: 50px;
-    gap: 30px
-}
-
-.team-item {
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    background-color: $accent-color;
-    padding-bottom: 30px;
-}
-
-.team-person {
-    margin-top: 30px;
-    color: $text-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.03em;
-}
-
-.team-job{
-    margin-top: 10px;
-    color: $additional-text-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.03em;
-}
-
-.teamsocial-list {
-    display: flex;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-top: 16px;
-    gap: 10px;
-}
-
-.teamsocial-item a {
-    padding: 12px 12px 12px 12px;
-    cursor: pointer;
-    display: block;
-    width: 44px;
-    height: 44px;
-    transition-property: all;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin {
-    width: 20px;
-    height: 20px;
-    fill: $icon-color;
-}
-
-.teamsocial-item a:hover, .teamsocial-item a:focus {
-    background-color: $hover-color;
-    border-radius: 50%;
-}
-
-.teamsocial-item a:hover .icon-instagram,
-.teamsocial-item a:hover .icon-twitter,
-.teamsocial-item a:hover .icon-facebook,
-.teamsocial-item a:hover .icon-linkedin,
-.teamsocial-item a:focus .icon-instagram,
-.teamsocial-item a:focus .icon-twitter,
-.teamsocial-item a:focus .icon-facebook,
-.teamsocial-item a:focus .icon-linkedin
- {
-    fill: $accent-color
-}
