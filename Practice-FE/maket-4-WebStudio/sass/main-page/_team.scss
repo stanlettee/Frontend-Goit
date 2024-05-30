@@ -9,9 +9,7 @@
         color:$text-color;
         text-align: center;
         font-size: 36px;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.03em;
+        @extend %title-styles;
     }
     
     &__image {
@@ -20,9 +18,8 @@
     }
     
     &__list {
-        display: flex;
         margin-top: 50px;
-        gap: 30px
+        @include flexbox($gap: 30px);
     }
     
     &__item {
@@ -52,11 +49,10 @@
     }
     
     &social__list {
-        display: flex;
         padding-left: 32px;
         padding-right: 32px;
         margin-top: 16px;
-        gap: 10px;
+        @include flexbox($gap: 10px);
     }
     
     &social__item a {

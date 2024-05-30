@@ -4,30 +4,26 @@
     padding-bottom: 25px;
 
     &__nav {
-        display: flex;
-        align-items: center;
+        @include flexbox($center-y: center);
     }
     
     &__list {
-        display: flex;
         margin-left: 93px;
         margin-right: 318px;
-        gap: 50px;
+        @include flexbox($gap: 50px);
     }
     
     &__autorization {
-        display: flex;
-        justify-content: flex-end;
-        gap: 30px;
+        @include flexbox($position-x: flex-end, $gap: 30px);
+        
     }
+    
     
     &__logo2 {
         font-family: 'Raleway', sans-serif;
         color: $hover-color;
         font-size: 26px;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.03em;
+        @extend %title-styles;
         animation-name: header-logo;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -37,9 +33,7 @@
         font-family: 'Raleway', sans-serif;
         color: $text-color;
         font-size: 26px;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.03em;
+        @extend %title-styles;
         animation-name: header-logo;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -124,9 +118,7 @@
         line-height: normal;
         letter-spacing: 0.02em;
         text-decoration: none;
-        display: flex;
-        gap: 10px;
-        align-items: center;
+        @include flexbox($center-y: center, $gap: 10px);
         transition-property: color;
         transition-duration: 250ms;
         transition-delay: cubic-bezier(0.4, 0, 0.2, 1);

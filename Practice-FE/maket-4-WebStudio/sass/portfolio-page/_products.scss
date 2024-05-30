@@ -1,10 +1,7 @@
 .products {
     &__list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         margin-top: 50px;
-        gap: 30px;
+        @include flexbox($gap: 30px, $flex-wrap: wrap);
     }
     
     &__img {

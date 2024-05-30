@@ -5,8 +5,7 @@
     
     &__list {
         margin-top: 50px;
-        display: flex;
-        gap: 30px;
+        @include flexbox($gap: 30px);
     }
     
     &__item {
@@ -39,9 +38,7 @@
         color: $text-color;
         text-align: center;
         font-size: 36px;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.03em;
+        @extend %title-styles;
     }
     
 }

@@ -20,10 +20,8 @@
     &__list {
         margin-top: 12px;
         margin-bottom: 20px;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        @include flexbox($gap: 10px, $center-y: center);
     }
     
     &__information {
@@ -112,11 +110,9 @@
         height: 30px;
         /* padding: 5.5px 6px 6px 5.5px; */
         border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         top: 8px;
         right: 8px;
+        @include flexbox($center-y: center);
     }
 
     &__icon {
@@ -161,10 +157,8 @@
 
 .checkbox {
     &__div{
-        display: flex;
-        gap: 8px;
         margin-bottom: 30px;
-        justify-content: center;
+        @include flexbox($gap: 8px);
     }
     
     &__information {
