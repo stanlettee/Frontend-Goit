@@ -5,21 +5,53 @@
         background-size: cover;                     
         background-repeat: no-repeat;
         background-position: center center;    
-        padding-top: 200px;
-        padding-bottom: 200px;
+
+        @media screen and (min-width: 450px) {
+            padding-top: 118px;
+            padding-bottom: 128px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            padding-top: 118px;
+            padding-bottom: 128px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 200px;
+            padding-bottom: 200px;
+        };
     }
 
     &__title {
         color: $accent-color;
         text-align: center;
-        font-size: 44px;
         font-weight: 900;
-        line-height: 1.3em;
-        letter-spacing: 0.02;
         text-transform: uppercase;
         animation-name: hero-title;
         animation-duration: 1.5s;
         animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+        margin: 0 auto;
+
+        @media screen and (min-width: 450px) {
+            font-size: 26px;
+            width: 360px;
+            line-height: 1.61em;
+            letter-spacing: 1.56px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            font-size: 26px;
+            width: 360px;
+            line-height: 1.61em;
+            letter-spacing: 1.56px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            font-size: 44px;
+            width: 696px;
+            line-height: 1.3em;
+            letter-spacing: 0.02;
+        };
     }
     
     &__button{
@@ -31,8 +63,6 @@
         font-weight: 700;
         line-height: 1.87;
         letter-spacing: 0.06em;
-        width: 216px;
-        height: 50px;
         flex-shrink: 0;
         border-radius: 4px;
         background: $hover-color;
@@ -43,6 +73,18 @@
         animation-name: hero-button;
         animation-duration: 1.5s;
         animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+        @media screen and (min-width: 450px) {
+            padding: 10px 24px 10px 24px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            padding: 10px 24px 10px 24px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            padding: 10px 36px 10px 36px;
+        };
     }
     
 }

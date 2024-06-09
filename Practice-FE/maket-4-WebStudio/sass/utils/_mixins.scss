@@ -1,7 +1,6 @@
-@mixin flexbox($position-x: center, $center-y: flex-start, $gap: 0px, $flex-wrap: nowrap){
+@mixin flexbox($position-x: center, $center-y: flex-start, $gap: 0px){
     display: flex;
     justify-content: $position-x;
     align-items: $center-y;
-    flex-wrap: $nowrap;
     gap: $gap;
 }

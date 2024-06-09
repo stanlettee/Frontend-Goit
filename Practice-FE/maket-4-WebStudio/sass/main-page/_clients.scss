@@ -2,27 +2,68 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
+    @media screen and (min-width: 450px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+
     &__container h2 {
-        margin-bottom: 50px;
         color: $text-color;
         text-align: center;
-        font-size: 36px;
         font-weight: 700;
         letter-spacing: 1.08px;
+
+        @media screen and (min-width: 450px) {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+            font-size: 36px;
+        }
     }
 
     &__list {
         @include flexbox($gap: 30px);
+        flex-wrap: wrap;
     }
 
     &__item a {
-        width: 170px;
-        height: 92px;
         border-radius: 4px;
         border: 1px solid $icon-color;
-        padding: 16px 32px 16px 32px;
+
         cursor: pointer;
         display: block;
+
+        @media screen and (min-width: 480px) {
+            width: 210px;
+            height: 92px;
+            padding: 16px 52px 16px 52px;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 226px;
+            height: 92px;
+            padding: 16px 60px 16px 60px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 170px;
+            height: 92px;
+            padding: 16px 32px 16px 32px;
+        }
     }
 
     &__client,

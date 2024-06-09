@@ -1,6 +1,19 @@
 .features {
     &__list {
         @include flexbox($gap: 30px);
+
+        @media screen and (min-width: 450px) {
+            flex-wrap: wrap;
+        }
+    
+        @media screen and (min-width: 768px) {
+            flex-wrap: wrap;
+        };
+
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+        };
+        
     }
 
     &__item::before {
@@ -9,8 +22,21 @@
         background-repeat: no-repeat;
         display: block;
         background-color: $background-color-ourteam;
-        width: 270px;
-        height: 120px;
+
+        @media screen and (min-width: 450px) {
+            width: 450px;
+            height: 120px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            width: 354px;
+            height: 120px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            height: 120px;
+        };
     }
 
     &__item:nth-child(1)::before {
@@ -39,8 +65,20 @@
     }
     
     &__section {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        @media screen and (min-width: 450px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        };
     }
     
     &__title {
@@ -50,6 +88,18 @@
         font-size: 14px;
         @extend %title-styles;
         text-transform: uppercase;
+
+        @media screen and (min-width: 450px) {
+            text-align: center;
+        }
+
+        @media screen and (min-width: 768px) {
+            text-align: left;
+        }
+
+        @media screen and (min-width: 1200px) {
+            text-align: left;
+        }
     }
 
     &__article {
@@ -58,6 +108,13 @@
         font-weight: 400;
         line-height: 1.7;
         letter-spacing: 0.03em;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+        };
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        };
     }
 }
 

@@ -1,10 +1,12 @@
+@import "./utils/mixins";
+@import "./utils/placeholders";
 @import "./utils/variables";
 @import "./base/common";
 @import "./main-page/header";
 @import "./main-page/hero";
 @import "./main-page/features";
-@import "./main-page/team";
 @import "./main-page/work";
+@import "./main-page/team";
 @import "./main-page/clients";
 @import "./components/footer";
 @import "./components/modal";
