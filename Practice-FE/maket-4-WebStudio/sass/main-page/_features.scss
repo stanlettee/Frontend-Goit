@@ -2,7 +2,7 @@
     &__list {
         @include flexbox($gap: 30px);
 
-        @media screen and (min-width: 450px) {
+        @media screen and (min-width: 280px) {
             flex-wrap: wrap;
         }
     
@@ -23,8 +23,8 @@
         display: block;
         background-color: $background-color-ourteam;
 
-        @media screen and (min-width: 450px) {
-            width: 450px;
+        @media screen and (min-width: 280px) {
+            width: 280px;
             height: 120px;
         }
     
@@ -65,7 +65,7 @@
     }
     
     &__section {
-        @media screen and (min-width: 450px) {
+        @media screen and (min-width: 280px) {
             padding-top: 60px;
             padding-bottom: 60px;
         }
@@ -89,7 +89,7 @@
         @extend %title-styles;
         text-transform: uppercase;
 
-        @media screen and (min-width: 450px) {
+        @media screen and (min-width: 280px) {
             text-align: center;
         }
 
