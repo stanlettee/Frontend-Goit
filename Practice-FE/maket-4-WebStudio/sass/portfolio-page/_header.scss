@@ -1,42 +1,109 @@
 .header {
     border: solid $background-color-ourteam;
-    padding-top: 24px;
-    padding-bottom: 25px;
+
+
+    @media screen and (min-width: 400px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
 
     &__nav {
         @include flexbox($center-y: center);
-    }
-    
-    &__list {
-        margin-left: 93px;
-        margin-right: 318px;
-        @include flexbox($gap: 50px);
-    }
-    
-    &__autorization {
-        @include flexbox($position-x: flex-end, $gap: 30px);
+
         
     }
     
+    &__list {
+       
+
+        @media screen and (min-width: 400px) {
+            display: none;
+        }
+    
+        @media screen and (min-width: 768px) {
+            margin-left: 88px;
+            margin-right: 96px;
+            @include flexbox($gap: 47px);
+        };
+
+        @media screen and (min-width: 1200px) {
+            margin-left: 93px;
+            margin-right: 318px;
+            @include flexbox($gap: 50px);
+        };
+    }
+    
+    &__autorization {
+
+        @media screen and (min-width: 400px) {
+            display: none;
+        }
+    
+        @media screen and (min-width: 768px) {
+            @include flexbox($position-x: flex-end, $gap: 10px);
+            flex-direction: column;
+        };
+
+        @media screen and (min-width: 1200px) {
+            @include flexbox($position-x: flex-end, $gap: 30px);
+            flex-direction: row;
+        };
+        
+    }
     
     &__logo2 {
         font-family: 'Raleway', sans-serif;
         color: $hover-color;
-        font-size: 26px;
         @extend %title-styles;
         animation-name: header-logo;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        @media screen and (min-width: 400px) {
+            font-size: 24px;
+            
+        }
+    
+        @media screen and (min-width: 768px) {
+            font-size: 24px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+        };
     }
     
     &__logo1 {
         font-family: 'Raleway', sans-serif;
         color: $text-color;
-        font-size: 26px;
         @extend %title-styles;
         animation-name: header-logo;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        @media screen and (min-width: 400px) {
+            font-size: 24px;
+            display: flex;
+            justify-content: left
+        }
+    
+        @media screen and (min-width: 768px) {
+            font-size: 24px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+        };
     }
     
     &__link {
@@ -92,15 +159,32 @@
     
     
     &__envelope {
-        width: 16px;
-        height: 12px;
-        fill: $additional-text-color
+
+        fill: $additional-text-color;
+    
+        @media screen and (min-width: 768px) {
+            width: 14px;
+            height: 10px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            width: 16px;
+            height: 12px;
+        };
     }
     
     &__smartphone {
-        width: 10px;
-        height: 16px;
-        fill: $additional-text-color
+        fill: $additional-text-color;
+
+        @media screen and (min-width: 768px) {
+            width: 10px;
+            height: 14px;
+        };
+
+        @media screen and (min-width: 1200px) {
+            width: 10px;
+            height: 16px;
+        };
     }
     
     &__email:hover &__envelope, 
@@ -113,19 +197,27 @@
     
     &__email, &__phone {
         color: $additional-text-color;
-        font-size: 14px;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.02em;
         text-decoration: none;
-        @include flexbox($center-y: center, $gap: 10px);
         transition-property: color;
         transition-duration: 250ms;
         transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
         animation-name: header-email;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        @media screen and (min-width: 768px) {
+            font-size: 12px;
+            @include flexbox($center-y: center, $gap: 8px);
+        };
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            @include flexbox($center-y: center, $gap: 10px);
+        };
     }
-    
+
 }
 
