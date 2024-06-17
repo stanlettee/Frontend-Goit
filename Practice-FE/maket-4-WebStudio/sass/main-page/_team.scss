@@ -1,16 +1,8 @@
 .team {
     &__section {
         background-color: $background-color-ourteam;
-
-        @media screen and (min-width: 400px) {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-
-        @media screen and (min-width: 768px) {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
+        padding-top: 60px;
+        padding-bottom: 60px;
 
         @media screen and (min-width: 1200px) {
             padding-top: 94px;
@@ -22,14 +14,7 @@
         color:$text-color;
         text-align: center;
         @extend %title-styles;
-
-        @media screen and (min-width: 400px) {
-            font-size: 28px;
-        }
-
-        @media screen and (min-width: 768px) {
-            font-size: 28px;
-        }
+        font-size: 28px;
 
         @media screen and (min-width: 1200px) {
             font-size: 36px;
@@ -37,9 +22,11 @@
     }
     
     &__image {
+        max-width: 450px;
+        width: 100%;
+        height: 100%;
 
-
-        @media screen and (min-width: 400px) {
+        @media screen and (min-width: 480px) {
             width: 450px;
             height: 460px;
         }
@@ -57,37 +44,34 @@
     
     &__list {
         @include flexbox($gap: 30px);
-
-
-        @media screen and (min-width: 400px) {
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-
-        @media screen and (min-width: 768px) {
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
+        margin-top: 30px;
+        flex-wrap: wrap;
 
         @media screen and (min-width: 1200px) {
             margin-top: 50px;
+            flex-wrap: nowrap;
         }
     }
     
     &__item {
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
         background-color: $accent-color;
+        padding-bottom: 24px;
+        max-width: 450px;
+        width: 100%;
 
-        @media screen and (min-width: 400px) {
-            padding-bottom: 24px;
+        @media screen and (min-width: 480px) {
+            width: 450px;
         }
 
         @media screen and (min-width: 768px) {
-            padding-bottom: 24px;
+            width: 354px;
         }
 
         @media screen and (min-width: 1200px) {
             padding-bottom: 30px;
+            width: 270px;
+
         }
     }
     
@@ -114,11 +98,8 @@
     &social__list {
         margin-top: 16px;
         @include flexbox($gap: 10px);
-
-        @media screen and (min-width: 400px) {
-            padding-left: 122px;
-            padding-right: 122px;
-        }
+        padding-left: 122px;
+        padding-right: 122px;
 
         @media screen and (min-width: 768px) {
             padding-left: 74px;
@@ -132,20 +113,32 @@
     }
     
     &social__item a {
+        max-width: 44px;
+        max-height: 44px;
         padding: 12px 12px 12px 12px;
         cursor: pointer;
         display: block;
-        width: 44px;
-        height: 44px;
+        // width: 44px;
+        // height: 44px;
         transition-property: all;
         transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and (min-width: 480px) {
+            width: 44px;
+            height: 44px;
+        }
     }
     
     &__instagram, &__twitter, &__facebook, &__linkedin {
-        width: 20px;
-        height: 20px;
+        max-width: 20px;
+        max-height: 20px;
         fill: $icon-color;
+
+        @media screen and (min-width: 480px) {
+            width: 20px;
+            height: 20px;
+        }
     }
     
     &social__item a:hover, &social__item a:focus {

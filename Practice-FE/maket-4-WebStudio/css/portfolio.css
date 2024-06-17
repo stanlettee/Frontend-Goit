@@ -18,8 +18,10 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+  flex-shrink: 0;
+  outline: solid red;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 320px) {
   .container {
     max-width: 480px;
   }
@@ -483,11 +485,7 @@ body {
   color: #ffffff;
   font-family: "Raleway";
   margin-bottom: 20px;
-}
-@media screen and (min-width: 350px) {
-  .footer__title {
-    font-size: 24px;
-  }
+  font-size: 24px;
 }
 @media screen and (min-width: 1200px) {
   .footer__title {
@@ -498,11 +496,7 @@ body {
   color: #2196f3;
   font-family: "Raleway";
   margin-bottom: 20px;
-}
-@media screen and (min-width: 350px) {
-  .footer__title2 {
-    font-size: 24px;
-  }
+  font-size: 24px;
 }
 @media screen and (min-width: 1200px) {
   .footer__title2 {
@@ -517,12 +511,7 @@ body {
   letter-spacing: 0.03em;
   display: block;
   text-decoration: none;
-  margin-bottom: 9px;
-}
-@media screen and (min-width: 350px) {
-  .footer__address {
-    margin-bottom: 8px;
-  }
+  margin-bottom: 8px;
 }
 @media screen and (min-width: 1200px) {
   .footer__address {
@@ -531,14 +520,10 @@ body {
 }
 .footer__list {
   flex-direction: column;
-}
-@media screen and (min-width: 350px) {
-  .footer__list {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
 }
 @media screen and (min-width: 1200px) {
   .footer__list {
@@ -556,10 +541,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-@media screen and (min-width: 350px) {
-  .footer__links {
-    margin-top: 60px;
-  }
+.footer__links {
+  margin-top: 60px;
 }
 @media screen and (min-width: 768px) {
   .footer__links {
@@ -583,10 +566,8 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-@media screen and (min-width: 350px) {
-  .footer__container {
-    text-align: center;
-  }
+.footer__container {
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .footer__container {
@@ -622,10 +603,8 @@ body {
 .footer__linksitem a:hover, .footer__linksitem a:focus {
   background-color: #2196f3;
 }
-@media screen and (min-width: 350px) {
-  .footer__form {
-    text-align: center;
-  }
+.footer__form {
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .footer__form {
@@ -639,15 +618,8 @@ body {
     padding-top: 10px;
   }
 }
-@media screen and (min-width: 350px) {
-  .footerform__container {
-    display: inline;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footerform__container {
-    display: inline;
-  }
+.footerform__container {
+  display: inline;
 }
 @media screen and (min-width: 1200px) {
   .footerform__container {
@@ -660,18 +632,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-}
-@media screen and (min-width: 350px) {
-  .footer__form h2 {
-    margin-top: 60px;
-    margin-bottom: 20px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer__form h2 {
-    margin-top: 60px;
-    margin-bottom: 20px;
-  }
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
   .footer__form h2 {
@@ -684,26 +646,21 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 12px;
   padding-left: 16px;
   color: #ffffff;
+  max-width: 450px;
+  height: 50px;
+  margin-bottom: 20px;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 480px) {
   .footer__form input {
     width: 450px;
     height: 50px;
-    margin-bottom: 20px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer__form input {
-    width: 450px;
-    height: 50px;
-    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__form input {
+    margin-right: 12px;
     width: 358px;
     height: 50px;
     margin-right: 12px;
@@ -741,15 +698,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0px;
+  margin: 0 auto;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 1200px) {
   .footer__form button {
-    margin: 0 auto;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer__form button {
-    margin: 0 auto;
+    margin: 0;
   }
 }
 .footer__icon {
