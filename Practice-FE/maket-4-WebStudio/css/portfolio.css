@@ -651,11 +651,13 @@ body {
   max-width: 450px;
   height: 50px;
   margin-bottom: 20px;
+  flex-shrink: 0;
 }
 @media screen and (min-width: 480px) {
   .footer__form input {
     width: 450px;
     height: 50px;
+    flex-shrink: 1;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -759,11 +761,21 @@ body {
 .backdrop__type {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  width: 448px;
   padding-left: 12px;
   padding-top: 11px;
   padding-bottom: 11px;
   margin-top: 4px;
+  width: 300px;
+}
+@media screen and (min-width: 480px) {
+  .backdrop__type {
+    width: 370px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop__type {
+    width: 448px;
+  }
 }
 .backdrop__button {
   border-radius: 4px;
@@ -799,7 +811,7 @@ body {
 }
 
 .modal {
-  width: 528px;
+  width: 360px;
   /* height: 400px; */
   background-color: #ffffff;
   border-radius: 10px;
@@ -816,6 +828,16 @@ body {
   transition-property: transform;
   transition-duration: 1500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
 }
 .modal h2 {
   color: #212121;
@@ -845,9 +867,56 @@ body {
   height: 18px;
   fill: #212121;
   position: absolute;
-  left: 56px;
+  top: -20px;
+}
+@media screen and (min-width: 1200px) {
+  .modal__icon #modal-icon1 {
+    top: 60px;
+    left: 56px;
+  }
+  .modal__icon #modal-icon2 {
+    left: 58px;
+  }
+  .modal__icon #modal-icon3 {
+    top: 246px;
+    left: 52px;
+    width: 28px;
+    height: 28px;
+  }
 }
 
+@media screen and (min-width: 480px) {
+  #modal-icon1 {
+    top: 126px;
+    left: 56px;
+  }
+  #modal-icon2 {
+    top: 198px;
+    left: 54px;
+  }
+  #modal-icon3 {
+    top: 266px;
+    left: 50px;
+    width: 28px;
+    height: 28px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #modal-icon1 {
+    top: 126px;
+    left: 44px;
+  }
+  #modal-icon2 {
+    top: 198px;
+    left: 46px;
+  }
+  #modal-icon3 {
+    top: 266px;
+    left: 42px;
+    width: 28px;
+    height: 28px;
+  }
+}
 .icon__close {
   width: 18px;
   height: 18px;
@@ -876,10 +945,25 @@ body {
 }
 .checkbox__information {
   color: #757575;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 1.7; /* 171.429% */
-  letter-spacing: 0.42px;
+  letter-spacing: 0.36px;
+}
+@media screen and (min-width: 480px) {
+  .checkbox__information {
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .checkbox__information {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
 }
 
 .contract {

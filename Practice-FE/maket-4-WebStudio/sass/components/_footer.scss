@@ -173,10 +173,13 @@
         max-width: 450px;
         height: 50px;
         margin-bottom: 20px;
+        flex-shrink: 0;
 
         @media screen and (min-width: 480px) {
             width: 450px;
             height: 50px;
+            flex-shrink: 1;
+            
         }
 
         @media screen and (min-width: 1200px) {
