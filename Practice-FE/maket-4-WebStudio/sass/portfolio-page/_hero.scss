@@ -1,9 +1,8 @@
 .hero {
+
     &__section {
-        @media screen and (min-width: 400px) {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
+        padding-top: 60px;
+        padding-bottom: 40px;
     
         @media screen and (min-width: 768px) {
             padding-top: 60px;
@@ -18,11 +17,8 @@
     
     &__list {
         @include flexbox($gap: 8px);
-
-        @media screen and (min-width: 400px) {
-            flex-wrap: wrap;
-            justify-content: flex-start;
-        }
+        flex-wrap: wrap;
+        justify-content: flex-start;
     
         @media screen and (min-width: 768px) {
             flex-wrap: nowrap;

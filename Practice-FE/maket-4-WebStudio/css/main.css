@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+  outline: solid 2px red;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -1118,7 +1119,6 @@ text-align: center; */
   height: 18px;
   fill: #212121;
   position: absolute;
-  top: -20px;
 }
 @media screen and (min-width: 1200px) {
   .modal__icon #modal-icon1 {
@@ -1136,6 +1136,21 @@ text-align: center; */
   }
 }
 
+@media screen and (min-width: 1200px) {
+  #modal-icon1 {
+    top: 60px;
+    left: 56px;
+  }
+  #modal-icon2 {
+    left: 58px;
+  }
+  #modal-icon3 {
+    top: 246px;
+    left: 52px;
+    width: 28px;
+    height: 28px;
+  }
+}
 @media screen and (min-width: 480px) {
   #modal-icon1 {
     top: 126px;

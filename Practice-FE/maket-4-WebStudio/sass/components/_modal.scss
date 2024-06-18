@@ -136,7 +136,6 @@
         height: 18px;
         fill: $text-color;
         position: absolute;
-        top: -20px;
 
         @media screen and (min-width: 1200px) {
         #modal-icon1 {
@@ -157,23 +156,23 @@
     }
 }
 
-// @media screen and (min-width: 1200px) {
-//     #modal-icon1 {
-//         top: 60px;
-//         left: 56px;
-//     }
-//     #modal-icon2 {
-//         // top: 100px; 
-//         left: 58px
-//     }
-//     #modal-icon3 {
-//         top: 246px; 
-//         left: 52px;
-//         width: 28px; 
-//         height: 28px;
-//     }
+@media screen and (min-width: 1200px) {
+    #modal-icon1 {
+        top: 60px;
+        left: 56px;
+    }
+    #modal-icon2 {
+        // top: 100px; 
+        left: 58px
+    }
+    #modal-icon3 {
+        top: 246px; 
+        left: 52px;
+        width: 28px; 
+        height: 28px;
+    }
 
-// }
+}
 
 @media screen and (min-width: 480px) {
     #modal-icon1 {

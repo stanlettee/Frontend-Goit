@@ -1,53 +1,54 @@
 .header {
     border: solid $background-color-ourteam;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
-
-    @media screen and (min-width: 400px) {
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
 
     @media screen and (min-width: 768px) {
         padding-top: 26px;
         padding-bottom: 26px;
-    }
+    };
 
     @media screen and (min-width: 1200px) {
         padding-top: 24px;
         padding-bottom: 25px;
-    }
+    };
+
+
+
 
     &__nav {
-        @include flexbox($center-y: center);
+        @media screen and (min-width: 768px) {
+            display: inline;
+            @include flexbox($center-y: center);
+        };
+
+        
 
         
     }
     
     &__list {
+        display: none;
        
-
-        @media screen and (min-width: 400px) {
-            display: none;
-        }
     
         @media screen and (min-width: 768px) {
             margin-left: 88px;
             margin-right: 96px;
             @include flexbox($gap: 47px);
+            // display: inline;
         };
 
         @media screen and (min-width: 1200px) {
             margin-left: 93px;
             margin-right: 318px;
             @include flexbox($gap: 50px);
+            // display: inline;
         };
     }
     
     &__autorization {
-
-        @media screen and (min-width: 400px) {
-            display: none;
-        }
+        display: none;
     
         @media screen and (min-width: 768px) {
             @include flexbox($position-x: flex-end, $gap: 10px);
@@ -68,11 +69,7 @@
         animation-name: header-logo;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
-        @media screen and (min-width: 400px) {
-            font-size: 24px;
-            
-        }
+        font-size: 24px;
     
         @media screen and (min-width: 768px) {
             font-size: 24px;
@@ -90,19 +87,18 @@
         animation-name: header-logo;
         animation-duration: 1s;
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
-        @media screen and (min-width: 400px) {
-            font-size: 24px;
-            display: flex;
-            justify-content: left
-        }
+        font-size: 24px;
+        display: flex;
+        justify-content: left;
     
         @media screen and (min-width: 768px) {
             font-size: 24px;
+            display: inherit
         };
 
         @media screen and (min-width: 1200px) {
             font-size: 26px;
+            display: inherit
         };
     }
     
@@ -220,4 +216,24 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
