@@ -49,8 +49,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .header {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -773,6 +773,7 @@ text-align: center; */
   display: block;
   text-decoration: none;
   margin-bottom: 8px;
+  font-style: normal;
 }
 @media screen and (min-width: 1200px) {
   .footer__address {
