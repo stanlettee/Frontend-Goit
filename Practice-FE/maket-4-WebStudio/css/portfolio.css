@@ -10,6 +10,12 @@
   list-style: none;
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -491,6 +497,19 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer__information {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__information {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__information {
+    text-align: left;
+  }
+}
 .footer__title {
   color: #ffffff;
   font-family: "Raleway";
@@ -661,7 +680,7 @@ body {
   max-width: 450px;
   height: 50px;
   margin-bottom: 20px;
-  flex-shrink: 0;
+  width: 100%;
 }
 @media screen and (min-width: 480px) {
   .footer__form input {
@@ -776,7 +795,7 @@ body {
   padding-top: 11px;
   padding-bottom: 11px;
   margin-top: 4px;
-  width: 300px;
+  width: 240px;
 }
 @media screen and (min-width: 480px) {
   .backdrop__type {
@@ -822,7 +841,7 @@ body {
 }
 
 .modal {
-  width: 360px;
+  width: 300px;
   /* height: 400px; */
   background-color: #ffffff;
   border-radius: 10px;
@@ -957,10 +976,10 @@ body {
   pointer-events: none;
 }
 
-/* 
-  .no-scroll {
-    overflow: hidden;
-  } */
+.no-scroll {
+  overflow: hidden;
+}
+
 .checkbox__div {
   margin-bottom: 30px;
   display: flex;
@@ -993,12 +1012,17 @@ body {
 
 .contract {
   color: #2196f3;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
   text-decoration-line: underline;
   cursor: pointer;
+}
+@media screen and (min-width: 480px) {
+  .contract {
+    font-size: 14px;
+  }
 }
 
 @keyframes header-logo {

@@ -39,7 +39,7 @@
         padding-top: 11px;
         padding-bottom: 11px;
         margin-top: 4px;
-        width: 300px;
+        width: 240px;
 
         @media screen and (min-width: 480px) {
             width: 370px;
@@ -83,7 +83,7 @@
 
 
 .modal {
-    width: 360px;
+    width: 300px;
     /* height: 400px; */
     background-color: $accent-color;
     border-radius: 10px;
@@ -234,10 +234,10 @@
     pointer-events: none;
 }
 
-/* 
-  .no-scroll {
+
+.no-scroll {
     overflow: hidden;
-  } */
+} 
 
 
 
@@ -283,11 +283,15 @@
 
 .contract {
     color: $hover-color;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
     text-decoration-line: underline;
-    cursor: pointer
+    cursor: pointer;
+
+    @media screen and (min-width: 480px) {
+        font-size: 14px;
+    }
 }
 

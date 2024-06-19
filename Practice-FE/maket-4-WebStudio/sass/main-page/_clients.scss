@@ -41,27 +41,19 @@
         border: 1px solid $icon-color;
         cursor: pointer;
         display: block;
-        flex-grow: 1;
         flex-shrink: 1;
 
         // max-width: 210px;
         // max-height: 92px;
         padding: 16px 52px 16px 52px;
-        flex-basis: calc(100% / 2);
-
-        @media screen and (max-width: 768px) {
-            width: 210px;
-            height: 92px;
-            
-            flex-shrink: 1;
-            flex-basis: calc(100% / 2);
-        }
+        flex-basis: calc((100% - 30px) / 2);
+        // max-width: 226px;
+        width: 210px;
 
         @media screen and (min-width: 768px) {
             width: 226px;
             height: 92px;
-            padding: 16px 60px 16px 60px;
-            flex-basis: calc(100% / 3);
+            padding: 16px 60px 16px 60px;;
         }
     
         @media screen and (min-width: 1200px) {
