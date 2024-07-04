@@ -267,10 +267,14 @@
       label span::before {
         top: -8px;
       }
-    
       label span::after {
         top: 8px;
       }
+    
+    //   #toggle-close {
+    //     background-color: none;
+    //     color: transparent;
+    //   }
     
       .menu {
         display: none;
@@ -317,34 +321,34 @@
     // }
 
     .menu {
-        top: 0;
+        top: 60px;
         left: 0;
-        padding-top: 42px;
+        padding-top: 18px;
         padding-left: 30px;
         position: absolute;
         width: 100%;
         // height: 100%;
-        max-height: 796px;
+        max-height: 856px;
         height: 100%;
         max-width: 768px;
         // width: 480px;
         // margin: 0 auto;
         background-color: #fff;
-        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+        // box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
     
-        &__close {
-            position: absolute;
-            background-color: transparent;
-            cursor: pointer; 
-            width: 30px;
-            height: 30px;
-            border: none;
-            /* padding: 5.5px 6px 6px 5.5px; */
-            border-radius: 50%;
-            top: 10px;
-            right: 15px;
-            @include flexbox($center-y: center);
-        }
+        // &__close {
+        //     position: absolute;
+        //     background-color: transparent;
+        //     cursor: pointer; 
+        //     width: 30px;
+        //     height: 30px;
+        //     border: none;
+        //     /* padding: 5.5px 6px 6px 5.5px; */
+        //     border-radius: 50%;
+        //     top: 10px;
+        //     right: 15px;
+        //     @include flexbox($center-y: center);
+        // }
     
         &__icon {
             width: 18px;

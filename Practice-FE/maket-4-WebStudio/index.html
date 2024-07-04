@@ -23,7 +23,7 @@
     <header class="header">
       <div class="container header__container">
         <nav class="header__nav">
-          <h1 class="header__logo1">
+          <h1 id="logo" class="header__logo1">
             <span class="header__logo2">Web</span>Studio
           </h1>
           <ul class="header__list">
@@ -54,16 +54,15 @@
             </li>
           </ul>
           <nav class="navigation">
-            <input type="checkbox" id="toggle">
-            <label for="toggle">
+            <input onclick="toggleText()"  type="checkbox" id="toggle">
+            <label  for="toggle">
               <span class="toggle-btn"></span>
               <!-- <svg class="header__icon"><use href="./img/symbol-defs.svg#icon-menu"></use></svg> -->
             </label>
             <div class="menu">
-              <label for="toggle">
-                <span style="top: -25px; right: 35px" class="toggle-btn"></span>
-                <!-- <svg class="header__icon"><use href="./img/symbol-defs.svg#icon-menu"></use></svg> -->
-              </label>
+              <!-- <label for="toggle">
+                <span id="toggle-close" style="top: -25px; right: 35px" class="toggle-btn"></span>
+              </label> -->
               <ul class="menu__linkslist">
                 <li class="menu__linksitem">
                   <a href="./index.html" class="menu__linkslink">Студія</a>
@@ -517,5 +516,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile_menu.js"></script>
   </body>
 </html>
