@@ -1,17 +1,40 @@
 .hero {
     &__section {
         /* background-color: var(--background-color-accent); */
-        background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url("../img/hero-background.jpg");
+        background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/mobile/hero@mobile1x.webp);
         background-size: cover;                     
         background-repeat: no-repeat;
         background-position: center center;  
         padding-top: 118px;
-        padding-bottom: 128px; 
+        padding-bottom: 128px;
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/mobile/hero@mobile2x.webp)
+      }
+
+ 
+
+        @media screen and (min-width: 768px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/teblet/hero@tablet1x.webp);
+            @media (min-device-pixel-ratio: 2),
+              (min-resolution: 192dpi),
+              (min-resolution: 2dppx) {
+                background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/tablet/hero@tablet2x.webp)
+            }
+        }
 
         @media screen and (min-width: 1200px) {
             padding-top: 200px;
             padding-bottom: 200px; 
-        };
+
+            background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/desktop/hero@desktop1x.webp);
+            @media (min-device-pixel-ratio: 2),
+              (min-resolution: 192dpi),
+              (min-resolution: 2dppx) {
+                background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/desktop/hero@desktop2x.webp);
+            }
+        }
     }
 
     &__title {
@@ -34,7 +57,7 @@
             width: 696px;
             line-height: 1.3em;
             letter-spacing: 0.02;
-        };
+        }
     }
     
     &__button{
