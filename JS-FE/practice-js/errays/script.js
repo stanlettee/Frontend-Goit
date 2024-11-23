@@ -81,12 +81,12 @@
 //   - Логіка break
 //   - Метод includes() з тернарним оператором
 
-const login = ['a', 'b', 'c'];
-const youLogin = prompt('Enter login');
-for (let i = 0; i<login.length;i++){
-    if (youLogin === login[i]){
-        console.log(`You are ${youLogin}`)
-    } else {
-        console.log('Your login is not found')
-    }
-}
+// const login = ['a', 'b', 'c'];
+// const youLogin = prompt('Enter login');
+// for (let i = 0; i<login.length;i++){
+//     if (youLogin === login[i]){
+//         console.log(`You are ${youLogin}`)
+//     } else {
+//         console.log('Your login is not found')
+//     }
+// }
