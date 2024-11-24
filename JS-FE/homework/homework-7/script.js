@@ -7,7 +7,7 @@ console.log(list1)
 // 2
 
 let list2 = ['hello', 'my', 'best'];
-list2.push('friend');
+list2[list2.length] = 'friend';
 console.log(list2)
 
 // 3
@@ -51,7 +51,7 @@ console.log(bNum)
 
 const list7 = [90, 33, 15, 48, 12, 67, 23, 89, 6, 37];
 for (let i = 0; i < list7.length; i++){
-    if (list7[i] > 9){
+    if (list7[i] % 2 === 0){
         console.log(list7[i])
     }
 }
