@@ -90,3 +90,82 @@
 //         console.log('Your login is not found')
 //     }
 // }
+
+// const matrix = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9],
+// ];
+
+// // console.log(matrix[1][1])
+
+// for (let i = 0; i < matrix.length; i++){
+//     for (let y = 0; y < matrix[i].length; y++){
+//         console.log(matrix[i][y])
+//     }
+// }
+
+const message = 'I love javascript';
+let split = message.split("");
+console.log(split)
+
+let friends = ['mark', 'jack', 'joe', 'peter', 'tony', 'bruce']
+let join = friends.join(' ')
+console.log(join)
+
+let indexof = friends.indexOf('jack')
+console.log(indexof)
+
+let includes = friends.includes('Hello')
+console.log(includes)
+
+let push = friends.push('alice'); // додає в кінець
+console.log(push) // виводе кількість, буде 7
+
+let pop = friends.pop(); // видаляє останній елемент
+console.log(pop) // повертає видаленний елемент
+console.log(friends)
+
+let shift = friends.shift() // видаляє перший елемент
+console.log(shift) // повиртає видаленний елемент
+console.log(friends)
+
+let unshift = friends.unshift('owen'); // додаэ елемент на початку
+console.log(unshift); // виводе кількість, буде 6
+console.log(friends)
+
+// метод slice вирізає елементи зі списку та робить іх окремим масивом, також може зробити копію масива
+let slice = friends.slice(1, 3);
+console.log(slice);
+console.log(friends.slice(3, 5));
+console.log(friends.slice(2, 4));
+
+let friends2 = friends.slice(3, 5).join(', ');
+let friends3 = friends.push(friends2)
+console.log(friends3);
+console.log(friends)
+
+const copyFriends = friends.slice()
+console.log(copyFriends)
+
+// метод splice, може додавати, видаляти та заміняти елемент у масиві
+const array = ['html', 'css', 'react', 'python', 'go', 'rust', 'javascript'];
+// видалимо елемент до масиву
+let deleteSplice = array.splice(4, 3)
+console.log(array) // у splice 4 це індекс з якого починаємо видалення, а 3 це кількість елементів які треба видалити, починаючи з 4 індекса
+// додамо елемент до масиву
+let addSlice = array.splice(1, 0, 'javascript')
+console.log(array)
+// заміна елемента у масиві
+let switchSlice = array.splice(4, 1, 'node.js')
+console.log(array)
+
+// метод concat, об'єднує кілька масивів в один
+const numbers1 = [23, 13, 44, 52, 132, 7, 35, 87];
+const numbers2 = [1, 54, 67, 24, 54, 76];
+const numbers3 = numbers1.concat(numbers2);
+console.log(numbers3)
+
+
+
+
