@@ -1,9 +1,18 @@
 // 1
 
-const button = document.getElementById('myButton');
-button.addEventListener('click', () => {
-    alert('Hello World!');
-});
+let button;
+buttonFunction = () => {
+    while (true) {
+        button = confirm('Підтвердити дію');
+        if (button === true){
+            continue
+        } else {
+            break
+        }
+    }
+};
+buttonFunction()
 
 // 2
 
+ 
