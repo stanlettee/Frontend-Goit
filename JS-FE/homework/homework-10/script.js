@@ -1,18 +1,21 @@
 // 1
 
 let button;
-const buttonFunction = () => {
+const buttonFunction = (callback) => {
     while (true) {
         button = confirm('Підтвердити дію');
-        if (button){
-            console.log('Hello world')
-            continue
+        if (button) {
+            callback();
+            continue;
         } else {
-            break
+            break;
         }
     }
 };
-buttonFunction()
+const sayHello = () => {
+    console.log('Hello world');
+};
+buttonFunction(sayHello); 
 
 // 2
 
@@ -69,13 +72,10 @@ const calculateDiscountPrice = (price, discount, callback) => {
 const displayPrice = (discountPrice) => {
     console.log(`Ціна після знижки: ${discountPrice}грн.`);
 };
-const price = Number(prompt('Введіть ціну'));
-const discount = Number(prompt('Введіть скидку'));
-if (isNaN.price || isNaN.discount){
-    alert('Ви ввели не число')
-} else {
-    calculateDiscountPrice(price, discount, displayPrice); 
-}
+const price = 1000;
+const discount = 10;
+calculateDiscountPrice(price, discount, displayPrice); 
+
 
 
  
