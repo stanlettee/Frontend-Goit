@@ -6,11 +6,16 @@ const user = {
     hobby: "football",
     premium: true
 };
-user.mood = 'happy';
 user.hobby = 'tennis';
-user.premium = false;
-const keys = Object.keys(user);
-for (const key of keys) {
+user.mood = 'happy';
+user.premium = false
+
+let { userName, hobby, premium, mood } = user;
+console.log(userName)
+console.log(hobby)
+console.log(premium)
+console.log(mood)
+for (const key of Object.keys(user)) {
     console.log(`${key}: ${user[key]}`);
 }
 
@@ -20,6 +25,8 @@ function countProps(obj){
     return Object.keys(obj).length
 }
 console.log(countProps(user))
+let { age } = user;
+console.log(age)
 
 // 3
 
@@ -45,6 +52,13 @@ function findBestEmployee(employees) {
     return `Our best empoyee is ${bestEmployee} with performance of ${maxPerformance}`;
 }
 console.log(findBestEmployee(performance));
+// const { Peter, Louis, Stewie, Brian, Quagmire, Joe } = performance;
+// console.log(Peter);
+// console.log(Louis);
+// console.log(Stewie);
+// console.log(Brian);
+// console.log(Quagmire);
+// console.log(Joe);
 
 // 4
 
@@ -65,6 +79,13 @@ function countTotalSalary(employees){
     return totalSalary
 }
 console.log(countTotalSalary(salary))
+const { Peter, Louis, Stewie, Brian, Quagmire, Joe } = salary;
+console.log(Peter);
+console.log(Louis);
+console.log(Stewie);
+console.log(Brian);
+console.log(Quagmire);
+console.log(Joe);
 
 // 5
 
@@ -87,6 +108,10 @@ console.log(getAllPropValues(products, 'name'));
 console.log(getAllPropValues(products, 'price')); 
 console.log(getAllPropValues(products, 'quantity')); 
 
+for (const { name, price, quantity } of products) {
+    console.log(`Name: ${name}, Price: ${price}, Quantity: ${quantity}`);
+}
+
 // 6
 
 function calculateTotalPrice(allProducts, productName) {
@@ -100,3 +125,6 @@ function calculateTotalPrice(allProducts, productName) {
 console.log(calculateTotalPrice(products, 'Apple'));
 console.log(calculateTotalPrice(products, 'Banana')); 
 console.log(calculateTotalPrice(products, 'Cherry')); 
+for (const { name, price, quantity } of products) {
+    console.log(`Name: ${name}, Price: ${price}, Quantity: ${quantity}`);
+}

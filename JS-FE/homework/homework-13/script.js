@@ -24,7 +24,13 @@ const account = {
     getDepositTransactions (){
         return this.depositTransactions
     },
-    getwithdrawnTransactions (){
+    getWithdrawTransactions (){
         return this.withdrawnTransactions
     }
 }
+account.deposit(1000);
+account.withdraw(200);
+account.deposit(13500);
+console.log(account.getBalance())
+console.log(account.getDepositTransactions())
+console.log(account.getWithdrawTransactions())
