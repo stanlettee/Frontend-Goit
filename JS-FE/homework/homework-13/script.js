@@ -28,9 +28,13 @@ const account = {
         return this.withdrawnTransactions
     }
 }
+let { balance, withdrawnTransactions, depositTransactions } = account;
 account.deposit(1000);
 account.withdraw(200);
 account.deposit(13500);
 console.log(account.getBalance())
 console.log(account.getDepositTransactions())
 console.log(account.getWithdrawTransactions())
+console.log(balance)
+console.log(withdrawnTransactions)
+console.log(depositTransactions)
