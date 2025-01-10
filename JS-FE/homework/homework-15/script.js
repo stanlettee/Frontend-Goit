@@ -15,8 +15,13 @@ console.log(users.reduce((sumBalance, user) => sumBalance + user.balance, 0))
 
 // 2
 
-const filteredUsers = users.filter((user) => user.friend === 'Owen')
-console.log(filteredUsers.map((user) => user.name))
+const filteredUsers = users.reduce((filteredUsers, user) => {
+    if (user.friend === 'Owen'){
+        filteredUsers.push(user)
+} 
+    return filteredUsers
+}, [])
+console.log(filteredUsers)
 
 // 3
 
