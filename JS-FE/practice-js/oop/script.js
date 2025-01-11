@@ -77,13 +77,22 @@ bmwX3.model = 'X3';
 
 // Напишемо гру
 
-class Ork {
+class Hero {
+    constructor(heroName, heroPoints){
+        this.name = heroName;
+        this.points = heroPoints;
+    }
+    showInfo(){
+        return `Hero name is ${this.name}, hero points are ${this.points}`
+    }
+}
+
+class Ork extends Hero{
     constructor({orkName, orkPoints, orkGender, orkSkinColor, orkWeapons}){
-        this.name = orkName;
-        this.points = orkPoints;
+        super(orkName, orkPoints)
         this.gender = orkGender;
         this.skinColor = orkSkinColor;
-        this.weapons = orkWeapons
+        this.weapons = orkWeapons;
     }
     showOrkPoints(){
         return `Ork ${this.name} has ${this.points}`
@@ -93,6 +102,18 @@ class Ork {
         return `Ork ${this.name} attacks Elfs with ${this.weapons} and has ${this.points}`
     }
 }
+
+class Elf extends Hero{
+    constructor({elfName, elfPoints, elfLifeTime, elfEarSize}){
+        super(elfName, elfPoints)
+        this.lifeTime = elfLifeTime;
+        this.earSize = elfEarSize;
+    }
+    elfFights(){
+        return `Elf ${this.name} fights with ${this.points} points`
+    }
+}
+
 const orkRufus = new Ork({
     orkName: 'Rufus',
     orkPoints: 100,
@@ -101,4 +122,13 @@ const orkRufus = new Ork({
     orkWeapons: 'gun'
 })
 console.log(orkRufus.showOrkPoints())
+console.log(orkRufus.orkAttacks())
+
+const elfRufas = new Elf({
+    elfName: 'Rufas',
+    elfPoints: 200,
+    elfLifeTime: 120,
+    elfEarSize: '10cm'
+})
+console.log(elfRufas.elfFights())
 console.log(orkRufus.orkAttacks())
