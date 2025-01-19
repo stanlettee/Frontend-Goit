@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #counter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        #value {
+            font-size: 30px;
+        }
+        #decrement, #increment {
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #243343; /* Синій колір */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul id="categories">
+        <li class="item">
+            <h2>Тварини</h2>
+            <ul>
+                <li>Кіт</li>
+                <li>Хом'як</li>
+                <li>Кінь</li>
+                <li>Папуга</li>
+            </ul>
+        </li>
+        <li class="item">
+            <h2>Продукти</h2>
+            <ul>
+                <li>Хліб</li>
+                <li>Петрушка</li>
+                <li>Сир</li>
+            </ul>
+        </li>
+        <li class="item">
+            <h2>Технології</h2>
+            <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node</li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="ingredients"></ul>
+    <ul id="gallery"></ul>
+    <div id="counter">
+        <button id="decrement" type="button" data-action="decrement">-1</button>
+        <span id="value">0</span>
+        <button id="increment" type="button" data-action="increment">+1</button>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
