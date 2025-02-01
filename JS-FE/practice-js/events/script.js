@@ -72,3 +72,8 @@ document.addEventListener("keydown", (e) => {
   }
 })
 console.log(boxElem)
+
+const box = document.querySelector('#box')
+box.addEventListener('mousemove', (e) => {
+  
+})
