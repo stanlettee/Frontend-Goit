@@ -2,8 +2,6 @@ const input = document.querySelector("#controls input");
 const createButton = document.querySelector("[data-action='render']");
 const destroyButton = document.querySelector("[data-action='destroy']");
 const boxesContainer = document.querySelector("#boxes");
-destroyButton.addEventListener('click', () => {destroyBoxes()})
-createButton.addEventListener('click', (e) => {createBoxes(e)})
 function createBoxes(amount){
     boxesContainer.innerHTML = ""
     let divSize = 30
@@ -22,4 +20,6 @@ function destroyBoxes(){
 createButton.addEventListener('click', () => {
     createBoxes(Number(input.value))
 })
-destroyButton.addEventListener('click', destroyBoxes())
+destroyButton.addEventListener('click', () => {
+    destroyBoxes()
+})
