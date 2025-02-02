@@ -6,3 +6,13 @@ openButton.addEventListener('click', ()=> {
 closeButton.addEventListener('click', ()=> {
     document.body.classList.remove("show-modal");
 })
+
+
+// task 2
+
+const backdrop = document.querySelector('.backdrop'); // Select the backdrop
+backdrop.addEventListener('click', (event) => {
+    if (event.target === backdrop) { // Check if the backdrop itself was clicked
+        document.body.classList.remove("show-modal");
+    }
+});
