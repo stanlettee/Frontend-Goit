@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .article {
+            width: 500px;
+            height: 700px;
+            box-shadow: 8px 5px 8px red;
+            outline: 3px solid yellow;
+            padding-top: 10px;
+            padding-left: 10px;
+            transform: translateX(-500px)
+
+        }
+
+        .article1 {
+            box-shadow: 8px 5px 8px blue;
+            transition: all 1s ease-out;
+            transform: translateX(0) rotate(360deg);
+        }
+
+        .list {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 100px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li class="item">
+            <article class="article">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae nemo earum quaerat animi consequuntur eum asperiores, fuga iusto. Reiciendis reprehenderit mollitia ratione alias exercitationem inventore nesciunt odit voluptatibus iste?</article>
+        </li>
+        <li class="item">
+            <article class="article">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae non praesentium esse et voluptatibus doloremque minus recusandae deleniti possimus cupiditate veritatis exercitationem rem fugit facilis dignissimos perspiciatis sapiente, repellat itaque?</article>
+        </li>
+        <li class="item">
+            <article class="article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nostrum ab et, doloremque tempora iste rerum facilis sit nisi id laboriosam esse ipsum quasi vel aliquam ullam itaque sequi explicabo.</article>
+        </li>
+        <li class="item">
+            <article class="article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque aperiam error perferendis consequatur praesentium placeat obcaecati expedita, veritatis harum ut corporis modi aliquam ipsam tempore, unde iusto commodi. Molestiae, laudantium!</article>
+        </li>
+        <li class="item">
+            <article class="article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nostrum corporis assumenda eaque quia aspernatur tempore neque fugiat magni quisquam doloribus molestiae, cum pariatur sit nulla. Nobis sequi delectus earum?</article>
+        </li>
+        <li class="item">
+            <article class="article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit hic, natus sed, laboriosam delectus odit rem laborum quisquam dolores facere tempore voluptas quibusdam. Natus quia exercitationem minus cumque id?</article>
+        </li>
+    </ul>
+    <script src="observer.js"></script>
+</body>
+</html>

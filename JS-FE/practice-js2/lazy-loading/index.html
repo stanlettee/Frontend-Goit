@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 100px;
+        }
+        img {
+            width: 1200px;
+            height: 100%;
+        }
+
+        img[loading='lazy']{
+            transform: translateX(-70%);
+            transition: all 5s;
+        }
+
+        p {
+            width: 1200px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .show {
+            transform: translateX(0);
+            opacity: 1
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <ul class="box-list">
+        <li class="box-item">
+            <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit a beatae tempora reprehenderit, ipsum praesentium mollitia delectus dicta pariatur modi ad sint provident laboriosam eaque quam nam magni eveniet necessitatibus.</p>
+            <img class="lazyload" loading="lazy" src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg" alt="nature image" class="box-image">
+        </li>
+        <li class="box-item">
+            <p class="box-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti sequi ratione quidem veniam ut eum corporis numquam itaque quibusdam delectus repellat temporibus eos, soluta modi quos similique tempora sunt ducimus?</p>
+            <img class="lazyload" loading="lazy" src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2024/02/12190030/Kirkjufell.jpg" alt="nature image" class="box-image">
+        </li>
+        <li class="box-item">
+            <p class="box-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quod praesentium hic! Dignissimos est, qui, quas perferendis nostrum odit distinctio at consequatur necessitatibus itaque alias animi, facere dolor quo harum!</p>
+            <img class="lazyload" loading="lazy" src="https://images.pexels.com/photos/533769/pexels-photo-533769.jpeg?cs=srgb&dl=pexels-pixabay-533769.jpg&fm=jpg" alt="nature image" class="box-image">
+        </li>
+        <li class="box-item">
+            <p class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis id expedita temporibus at debitis ducimus hic magnam, quisquam, ea est dicta enim atque itaque fugiat eos adipisci distinctio totam.</p>
+            <img class="lazyload" loading="lazy" src="https://admin.onlyinyourstate.com/wp-content/uploads/sites/2/2017/03/Grinnell-Lake-overlook-14510897257-5.jpg" alt="nature image" class="box-image">
+        </li>
+        <li class="box-item">
+            <p class="box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quibusdam molestiae suscipit ullam aperiam, quae optio, perspiciatis cumque veniam asperiores dolorum dolores ex temporibus quos doloribus expedita minus totam quas.</p>
+            <img class="lazyload" loading="lazy" src="https://static.vecteezy.com/system/resources/previews/033/919/308/non_2x/the-sun-rises-over-the-mountains-and-flowers-in-the-foreground-ai-generated-free-photo.jpg" alt="nature image" class="box-image">
+        </li>
+    </ul>
+    <script src="lazysizes.min.js"></script>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js"></script>
+</body>
+</html>
