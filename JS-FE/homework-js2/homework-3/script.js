@@ -1,4 +1,4 @@
-const button = document.getElementById('loadImages')
+const button = document.querySelector('#loadImages')
 button.addEventListener('click', () => {
     const images = document.querySelectorAll('img[data-src]');
     const options = {
