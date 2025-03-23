@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        img {
+            height: 800px;
+            background-color: #f0f0f0;
+            display: block;
+            width: 100%;
+            transition: opacity 1s ease-out;
+            opacity: 0;
+        }
+        img.loaded {
+            opacity: 1;
+            transform: rotate(360deg);
+        }
+        .image-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
+    <h1>Lazy loading</h1>
+    <button id="loadImages">Завантажити зображення</button>
+    <div class="image-container">
+        <img data-src="https://getwallpapers.com/wallpaper/full/4/a/8/1200094-best-4k-ultra-hd-nature-wallpaper-1920x1080-picture.jpg" alt="lazy image 1">
+        <img data-src="https://www.itl.cat/pngfile/big/13-139290_beautiful-nature-sea-photos-hd-free-desktop-full.jpg" alt="lazy image 2">
+        <img data-src="https://wallpapers.com/images/hd/beautiful-nature-pictures-rrmqkqvqz4zoxj13.jpg" alt="lazy image 3">
+        <img data-src="https://wallpapers.com/images/hd/beautiful-nature-pictures-4ykb3e2u2j0ietq4.jpg" alt="lazy image 4">
+        <img data-src="https://www.baltana.com/files/wallpapers-23/Beautiful-Nature-Wallpaper-2880x1800-56501.jpg" alt="lazy image 5">
+    </div>
     
     <script src="script.js"></script>
 </body>
