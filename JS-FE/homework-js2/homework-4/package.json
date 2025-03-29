@@ -1,0 +1,12 @@
+{
+  "name": "homework-4",
+  "version": "1.0.0",
+  "description": "Мій новий проект на основі відкритого середовища node.js, яке дозволяє виконувати JavaScript на стороні сервера",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Stas",
+  "license": "ISC"
+}
