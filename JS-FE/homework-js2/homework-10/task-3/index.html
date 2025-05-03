@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .title {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .text {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .button {
+      padding: 20px 40px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2f7c32;
+    }
+
+    .button:active {
+      transform: scale(0.95);
+    }
+
+    .result {
+        font-size: 18px;
+        color: #555;
+        margin-top: 20px;
+        }
+
+    .click {
+        font-weight: bold;
+        color: #4CAF50;
+        font-size: 22px;
+        }
+    .time {
+        margin-bottom: 30px;
+        font-size: 24px;
+
+    }
+
+    .record-text {
+        font-size: 18px;
+        color: #555;
+        margin-top: 20px;
+    }
+ 
+    </style>
+</head>
+<body>
+    <h1 class="title">Click Game</h1>
+    <p class="text">Explanation: You should click on your computer mouse for 10 seconds and we will see your click speed</p>
+    <p class="time">10</p>
+    <button class="button" type="button"></button>
+    <p class="click">0</p>
+    
+    <p class="result">Your click speed: <span class="click-speed"></span></p>
+    <p class="record-text">Your record: <span class="record"></span></p>
+    <script src="script.js"></script>
+</body>
+</html>
